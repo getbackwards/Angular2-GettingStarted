@@ -1,0 +1,2035 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/tgray/.nvm/versions/node/v4.4.1/bin/node',
+1 verbose cli   '/Users/tgray/.nvm/versions/node/v4.4.1/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose readDependencies loading dependencies from /Users/tgray/Documents/web-dev/Angular2-GettingStarted/APM/package.json
+5 verbose install where, deps [ '/Users/tgray/Documents/web-dev/Angular2-GettingStarted/APM',
+5 verbose install   [ '@angular/common',
+5 verbose install     '@angular/compiler',
+5 verbose install     '@angular/core',
+5 verbose install     '@angular/forms',
+5 verbose install     '@angular/http',
+5 verbose install     '@angular/platform-browser',
+5 verbose install     '@angular/platform-browser-dynamic',
+5 verbose install     '@angular/router',
+5 verbose install     'core-js',
+5 verbose install     'reflect-metadata',
+5 verbose install     'rxjs',
+5 verbose install     'systemjs',
+5 verbose install     'zone.js',
+5 verbose install     'bootstrap',
+5 verbose install     'concurrently',
+5 verbose install     'lite-server',
+5 verbose install     'tslint',
+5 verbose install     'typescript',
+5 verbose install     'typings' ] ]
+6 verbose install where, peers [ '/Users/tgray/Documents/web-dev/Angular2-GettingStarted/APM',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle /Users/tgray/Documents/web-dev/Angular2-GettingStarted/APM/package.json
+8 info preinstall product-management@1.0.0
+9 verbose readDependencies loading dependencies from /Users/tgray/Documents/web-dev/Angular2-GettingStarted/APM/package.json
+10 silly cache add args [ '@angular/compiler@2.0.0', null ]
+11 verbose cache add spec @angular/compiler@2.0.0
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: '@angular/compiler@2.0.0',
+12 silly cache add   scope: '@angular',
+12 silly cache add   name: '@angular/compiler',
+12 silly cache add   rawSpec: '2.0.0',
+12 silly cache add   spec: '2.0.0',
+12 silly cache add   type: 'version' }
+13 silly addNamed @angular/compiler@2.0.0
+14 verbose addNamed "2.0.0" is a plain semver version for @angular/compiler
+15 silly mapToRegistry name @angular/compiler
+16 silly mapToRegistry scope (from package name) @angular
+17 verbose mapToRegistry no registry URL found in name for scope @angular
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry http://sinopia.trademe.local/
+20 silly mapToRegistry uri http://sinopia.trademe.local/@angular%2fcompiler
+21 verbose addNameVersion registry:http://sinopia.trademe.local/@angular%2fcompiler not in flight; fetching
+22 silly cache add args [ '@angular/core@2.0.0', null ]
+23 verbose cache add spec @angular/core@2.0.0
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '@angular/core@2.0.0',
+24 silly cache add   scope: '@angular',
+24 silly cache add   name: '@angular/core',
+24 silly cache add   rawSpec: '2.0.0',
+24 silly cache add   spec: '2.0.0',
+24 silly cache add   type: 'version' }
+25 silly addNamed @angular/core@2.0.0
+26 verbose addNamed "2.0.0" is a plain semver version for @angular/core
+27 silly mapToRegistry name @angular/core
+28 silly mapToRegistry scope (from package name) @angular
+29 verbose mapToRegistry no registry URL found in name for scope @angular
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry http://sinopia.trademe.local/
+32 silly mapToRegistry uri http://sinopia.trademe.local/@angular%2fcore
+33 verbose addNameVersion registry:http://sinopia.trademe.local/@angular%2fcore not in flight; fetching
+34 silly cache add args [ '@angular/forms@2.0.0', null ]
+35 verbose cache add spec @angular/forms@2.0.0
+36 silly cache add parsed spec Result {
+36 silly cache add   raw: '@angular/forms@2.0.0',
+36 silly cache add   scope: '@angular',
+36 silly cache add   name: '@angular/forms',
+36 silly cache add   rawSpec: '2.0.0',
+36 silly cache add   spec: '2.0.0',
+36 silly cache add   type: 'version' }
+37 silly addNamed @angular/forms@2.0.0
+38 verbose addNamed "2.0.0" is a plain semver version for @angular/forms
+39 silly mapToRegistry name @angular/forms
+40 silly mapToRegistry scope (from package name) @angular
+41 verbose mapToRegistry no registry URL found in name for scope @angular
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry http://sinopia.trademe.local/
+44 silly mapToRegistry uri http://sinopia.trademe.local/@angular%2fforms
+45 verbose addNameVersion registry:http://sinopia.trademe.local/@angular%2fforms not in flight; fetching
+46 silly cache add args [ '@angular/http@2.0.0', null ]
+47 verbose cache add spec @angular/http@2.0.0
+48 silly cache add parsed spec Result {
+48 silly cache add   raw: '@angular/http@2.0.0',
+48 silly cache add   scope: '@angular',
+48 silly cache add   name: '@angular/http',
+48 silly cache add   rawSpec: '2.0.0',
+48 silly cache add   spec: '2.0.0',
+48 silly cache add   type: 'version' }
+49 silly addNamed @angular/http@2.0.0
+50 verbose addNamed "2.0.0" is a plain semver version for @angular/http
+51 silly mapToRegistry name @angular/http
+52 silly mapToRegistry scope (from package name) @angular
+53 verbose mapToRegistry no registry URL found in name for scope @angular
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry http://sinopia.trademe.local/
+56 silly mapToRegistry uri http://sinopia.trademe.local/@angular%2fhttp
+57 verbose addNameVersion registry:http://sinopia.trademe.local/@angular%2fhttp not in flight; fetching
+58 silly cache add args [ '@angular/platform-browser@2.0.0', null ]
+59 verbose cache add spec @angular/platform-browser@2.0.0
+60 silly cache add parsed spec Result {
+60 silly cache add   raw: '@angular/platform-browser@2.0.0',
+60 silly cache add   scope: '@angular',
+60 silly cache add   name: '@angular/platform-browser',
+60 silly cache add   rawSpec: '2.0.0',
+60 silly cache add   spec: '2.0.0',
+60 silly cache add   type: 'version' }
+61 silly addNamed @angular/platform-browser@2.0.0
+62 verbose addNamed "2.0.0" is a plain semver version for @angular/platform-browser
+63 silly mapToRegistry name @angular/platform-browser
+64 silly mapToRegistry scope (from package name) @angular
+65 verbose mapToRegistry no registry URL found in name for scope @angular
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry http://sinopia.trademe.local/
+68 silly mapToRegistry uri http://sinopia.trademe.local/@angular%2fplatform-browser
+69 verbose addNameVersion registry:http://sinopia.trademe.local/@angular%2fplatform-browser not in flight; fetching
+70 silly cache add args [ '@angular/platform-browser-dynamic@2.0.0', null ]
+71 verbose cache add spec @angular/platform-browser-dynamic@2.0.0
+72 silly cache add parsed spec Result {
+72 silly cache add   raw: '@angular/platform-browser-dynamic@2.0.0',
+72 silly cache add   scope: '@angular',
+72 silly cache add   name: '@angular/platform-browser-dynamic',
+72 silly cache add   rawSpec: '2.0.0',
+72 silly cache add   spec: '2.0.0',
+72 silly cache add   type: 'version' }
+73 silly addNamed @angular/platform-browser-dynamic@2.0.0
+74 verbose addNamed "2.0.0" is a plain semver version for @angular/platform-browser-dynamic
+75 silly mapToRegistry name @angular/platform-browser-dynamic
+76 silly mapToRegistry scope (from package name) @angular
+77 verbose mapToRegistry no registry URL found in name for scope @angular
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry http://sinopia.trademe.local/
+80 silly mapToRegistry uri http://sinopia.trademe.local/@angular%2fplatform-browser-dynamic
+81 verbose addNameVersion registry:http://sinopia.trademe.local/@angular%2fplatform-browser-dynamic not in flight; fetching
+82 silly cache add args [ '@angular/router@3.0.0', null ]
+83 verbose cache add spec @angular/router@3.0.0
+84 silly cache add parsed spec Result {
+84 silly cache add   raw: '@angular/router@3.0.0',
+84 silly cache add   scope: '@angular',
+84 silly cache add   name: '@angular/router',
+84 silly cache add   rawSpec: '3.0.0',
+84 silly cache add   spec: '3.0.0',
+84 silly cache add   type: 'version' }
+85 silly addNamed @angular/router@3.0.0
+86 verbose addNamed "3.0.0" is a plain semver version for @angular/router
+87 silly mapToRegistry name @angular/router
+88 silly mapToRegistry scope (from package name) @angular
+89 verbose mapToRegistry no registry URL found in name for scope @angular
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry http://sinopia.trademe.local/
+92 silly mapToRegistry uri http://sinopia.trademe.local/@angular%2frouter
+93 verbose addNameVersion registry:http://sinopia.trademe.local/@angular%2frouter not in flight; fetching
+94 silly cache add args [ 'core-js@^2.4.1', null ]
+95 verbose cache add spec core-js@^2.4.1
+96 silly cache add parsed spec Result {
+96 silly cache add   raw: 'core-js@^2.4.1',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'core-js',
+96 silly cache add   rawSpec: '^2.4.1',
+96 silly cache add   spec: '>=2.4.1 <3.0.0',
+96 silly cache add   type: 'range' }
+97 silly addNamed core-js@>=2.4.1 <3.0.0
+98 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for core-js
+99 silly addNameRange { name: 'core-js', range: '>=2.4.1 <3.0.0', hasData: false }
+100 silly mapToRegistry name core-js
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry http://sinopia.trademe.local/
+103 silly mapToRegistry uri http://sinopia.trademe.local/core-js
+104 verbose addNameRange registry:http://sinopia.trademe.local/core-js not in flight; fetching
+105 silly cache add args [ 'reflect-metadata@^0.1.3', null ]
+106 verbose cache add spec reflect-metadata@^0.1.3
+107 silly cache add parsed spec Result {
+107 silly cache add   raw: 'reflect-metadata@^0.1.3',
+107 silly cache add   scope: null,
+107 silly cache add   name: 'reflect-metadata',
+107 silly cache add   rawSpec: '^0.1.3',
+107 silly cache add   spec: '>=0.1.3 <0.2.0',
+107 silly cache add   type: 'range' }
+108 silly addNamed reflect-metadata@>=0.1.3 <0.2.0
+109 verbose addNamed ">=0.1.3 <0.2.0" is a valid semver range for reflect-metadata
+110 silly addNameRange { name: 'reflect-metadata',
+110 silly addNameRange   range: '>=0.1.3 <0.2.0',
+110 silly addNameRange   hasData: false }
+111 silly mapToRegistry name reflect-metadata
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry http://sinopia.trademe.local/
+114 silly mapToRegistry uri http://sinopia.trademe.local/reflect-metadata
+115 verbose addNameRange registry:http://sinopia.trademe.local/reflect-metadata not in flight; fetching
+116 silly cache add args [ 'rxjs@5.0.0-beta.12', null ]
+117 verbose cache add spec rxjs@5.0.0-beta.12
+118 silly cache add parsed spec Result {
+118 silly cache add   raw: 'rxjs@5.0.0-beta.12',
+118 silly cache add   scope: null,
+118 silly cache add   name: 'rxjs',
+118 silly cache add   rawSpec: '5.0.0-beta.12',
+118 silly cache add   spec: '5.0.0-beta.12',
+118 silly cache add   type: 'version' }
+119 silly addNamed rxjs@5.0.0-beta.12
+120 verbose addNamed "5.0.0-beta.12" is a plain semver version for rxjs
+121 silly mapToRegistry name rxjs
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry http://sinopia.trademe.local/
+124 silly mapToRegistry uri http://sinopia.trademe.local/rxjs
+125 verbose addNameVersion registry:http://sinopia.trademe.local/rxjs not in flight; fetching
+126 silly cache add args [ 'systemjs@0.19.27', null ]
+127 verbose cache add spec systemjs@0.19.27
+128 silly cache add parsed spec Result {
+128 silly cache add   raw: 'systemjs@0.19.27',
+128 silly cache add   scope: null,
+128 silly cache add   name: 'systemjs',
+128 silly cache add   rawSpec: '0.19.27',
+128 silly cache add   spec: '0.19.27',
+128 silly cache add   type: 'version' }
+129 silly addNamed systemjs@0.19.27
+130 verbose addNamed "0.19.27" is a plain semver version for systemjs
+131 silly mapToRegistry name systemjs
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry http://sinopia.trademe.local/
+134 silly mapToRegistry uri http://sinopia.trademe.local/systemjs
+135 verbose addNameVersion registry:http://sinopia.trademe.local/systemjs not in flight; fetching
+136 silly cache add args [ 'zone.js@^0.6.23', null ]
+137 verbose cache add spec zone.js@^0.6.23
+138 silly cache add parsed spec Result {
+138 silly cache add   raw: 'zone.js@^0.6.23',
+138 silly cache add   scope: null,
+138 silly cache add   name: 'zone.js',
+138 silly cache add   rawSpec: '^0.6.23',
+138 silly cache add   spec: '>=0.6.23 <0.7.0',
+138 silly cache add   type: 'range' }
+139 silly addNamed zone.js@>=0.6.23 <0.7.0
+140 verbose addNamed ">=0.6.23 <0.7.0" is a valid semver range for zone.js
+141 silly addNameRange { name: 'zone.js', range: '>=0.6.23 <0.7.0', hasData: false }
+142 silly mapToRegistry name zone.js
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry http://sinopia.trademe.local/
+145 silly mapToRegistry uri http://sinopia.trademe.local/zone.js
+146 verbose addNameRange registry:http://sinopia.trademe.local/zone.js not in flight; fetching
+147 silly cache add args [ 'bootstrap@^3.3.6', null ]
+148 verbose cache add spec bootstrap@^3.3.6
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'bootstrap@^3.3.6',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'bootstrap',
+149 silly cache add   rawSpec: '^3.3.6',
+149 silly cache add   spec: '>=3.3.6 <4.0.0',
+149 silly cache add   type: 'range' }
+150 silly addNamed bootstrap@>=3.3.6 <4.0.0
+151 verbose addNamed ">=3.3.6 <4.0.0" is a valid semver range for bootstrap
+152 silly addNameRange { name: 'bootstrap', range: '>=3.3.6 <4.0.0', hasData: false }
+153 silly mapToRegistry name bootstrap
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry http://sinopia.trademe.local/
+156 silly mapToRegistry uri http://sinopia.trademe.local/bootstrap
+157 verbose addNameRange registry:http://sinopia.trademe.local/bootstrap not in flight; fetching
+158 silly cache add args [ 'concurrently@^2.2.0', null ]
+159 verbose cache add spec concurrently@^2.2.0
+160 silly cache add parsed spec Result {
+160 silly cache add   raw: 'concurrently@^2.2.0',
+160 silly cache add   scope: null,
+160 silly cache add   name: 'concurrently',
+160 silly cache add   rawSpec: '^2.2.0',
+160 silly cache add   spec: '>=2.2.0 <3.0.0',
+160 silly cache add   type: 'range' }
+161 silly addNamed concurrently@>=2.2.0 <3.0.0
+162 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for concurrently
+163 silly addNameRange { name: 'concurrently', range: '>=2.2.0 <3.0.0', hasData: false }
+164 silly mapToRegistry name concurrently
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry http://sinopia.trademe.local/
+167 silly mapToRegistry uri http://sinopia.trademe.local/concurrently
+168 verbose addNameRange registry:http://sinopia.trademe.local/concurrently not in flight; fetching
+169 silly cache add args [ 'lite-server@^2.2.0', null ]
+170 verbose cache add spec lite-server@^2.2.0
+171 silly cache add parsed spec Result {
+171 silly cache add   raw: 'lite-server@^2.2.0',
+171 silly cache add   scope: null,
+171 silly cache add   name: 'lite-server',
+171 silly cache add   rawSpec: '^2.2.0',
+171 silly cache add   spec: '>=2.2.0 <3.0.0',
+171 silly cache add   type: 'range' }
+172 silly addNamed lite-server@>=2.2.0 <3.0.0
+173 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for lite-server
+174 silly addNameRange { name: 'lite-server', range: '>=2.2.0 <3.0.0', hasData: false }
+175 silly mapToRegistry name lite-server
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry http://sinopia.trademe.local/
+178 silly mapToRegistry uri http://sinopia.trademe.local/lite-server
+179 verbose addNameRange registry:http://sinopia.trademe.local/lite-server not in flight; fetching
+180 silly cache add args [ 'tslint@^3.7.4', null ]
+181 verbose cache add spec tslint@^3.7.4
+182 silly cache add parsed spec Result {
+182 silly cache add   raw: 'tslint@^3.7.4',
+182 silly cache add   scope: null,
+182 silly cache add   name: 'tslint',
+182 silly cache add   rawSpec: '^3.7.4',
+182 silly cache add   spec: '>=3.7.4 <4.0.0',
+182 silly cache add   type: 'range' }
+183 silly addNamed tslint@>=3.7.4 <4.0.0
+184 verbose addNamed ">=3.7.4 <4.0.0" is a valid semver range for tslint
+185 silly addNameRange { name: 'tslint', range: '>=3.7.4 <4.0.0', hasData: false }
+186 silly mapToRegistry name tslint
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry http://sinopia.trademe.local/
+189 silly mapToRegistry uri http://sinopia.trademe.local/tslint
+190 verbose addNameRange registry:http://sinopia.trademe.local/tslint not in flight; fetching
+191 silly cache add args [ 'typescript@^2.0.2', null ]
+192 verbose cache add spec typescript@^2.0.2
+193 silly cache add parsed spec Result {
+193 silly cache add   raw: 'typescript@^2.0.2',
+193 silly cache add   scope: null,
+193 silly cache add   name: 'typescript',
+193 silly cache add   rawSpec: '^2.0.2',
+193 silly cache add   spec: '>=2.0.2 <3.0.0',
+193 silly cache add   type: 'range' }
+194 silly addNamed typescript@>=2.0.2 <3.0.0
+195 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for typescript
+196 silly addNameRange { name: 'typescript', range: '>=2.0.2 <3.0.0', hasData: false }
+197 silly mapToRegistry name typescript
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry http://sinopia.trademe.local/
+200 silly mapToRegistry uri http://sinopia.trademe.local/typescript
+201 verbose addNameRange registry:http://sinopia.trademe.local/typescript not in flight; fetching
+202 silly cache add args [ 'typings@^1.0.4', null ]
+203 verbose cache add spec typings@^1.0.4
+204 silly cache add parsed spec Result {
+204 silly cache add   raw: 'typings@^1.0.4',
+204 silly cache add   scope: null,
+204 silly cache add   name: 'typings',
+204 silly cache add   rawSpec: '^1.0.4',
+204 silly cache add   spec: '>=1.0.4 <2.0.0',
+204 silly cache add   type: 'range' }
+205 silly addNamed typings@>=1.0.4 <2.0.0
+206 verbose addNamed ">=1.0.4 <2.0.0" is a valid semver range for typings
+207 silly addNameRange { name: 'typings', range: '>=1.0.4 <2.0.0', hasData: false }
+208 silly mapToRegistry name typings
+209 silly mapToRegistry using default registry
+210 silly mapToRegistry registry http://sinopia.trademe.local/
+211 silly mapToRegistry uri http://sinopia.trademe.local/typings
+212 verbose addNameRange registry:http://sinopia.trademe.local/typings not in flight; fetching
+213 silly cache add args [ '@angular/common@2.0.0', null ]
+214 verbose cache add spec @angular/common@2.0.0
+215 silly cache add parsed spec Result {
+215 silly cache add   raw: '@angular/common@2.0.0',
+215 silly cache add   scope: '@angular',
+215 silly cache add   name: '@angular/common',
+215 silly cache add   rawSpec: '2.0.0',
+215 silly cache add   spec: '2.0.0',
+215 silly cache add   type: 'version' }
+216 silly addNamed @angular/common@2.0.0
+217 verbose addNamed "2.0.0" is a plain semver version for @angular/common
+218 silly mapToRegistry name @angular/common
+219 silly mapToRegistry scope (from package name) @angular
+220 verbose mapToRegistry no registry URL found in name for scope @angular
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry http://sinopia.trademe.local/
+223 silly mapToRegistry uri http://sinopia.trademe.local/@angular%2fcommon
+224 verbose addNameVersion registry:http://sinopia.trademe.local/@angular%2fcommon not in flight; fetching
+225 verbose request uri http://sinopia.trademe.local/@angular%2fcompiler
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 9:06:43 AM
+228 verbose request using bearer token for auth
+229 verbose request id a9f71a7e98f0fcb9
+230 http request GET http://sinopia.trademe.local/@angular%2fcompiler
+231 verbose request uri http://sinopia.trademe.local/@angular%2fcore
+232 verbose request no auth needed
+233 info attempt registry request try #1 at 9:06:43 AM
+234 verbose request using bearer token for auth
+235 http request GET http://sinopia.trademe.local/@angular%2fcore
+236 verbose request uri http://sinopia.trademe.local/@angular%2fforms
+237 verbose request no auth needed
+238 info attempt registry request try #1 at 9:06:43 AM
+239 verbose request using bearer token for auth
+240 http request GET http://sinopia.trademe.local/@angular%2fforms
+241 verbose request uri http://sinopia.trademe.local/@angular%2fhttp
+242 verbose request no auth needed
+243 info attempt registry request try #1 at 9:06:43 AM
+244 verbose request using bearer token for auth
+245 http request GET http://sinopia.trademe.local/@angular%2fhttp
+246 verbose request uri http://sinopia.trademe.local/@angular%2fplatform-browser
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 9:06:43 AM
+249 verbose request using bearer token for auth
+250 http request GET http://sinopia.trademe.local/@angular%2fplatform-browser
+251 verbose request uri http://sinopia.trademe.local/@angular%2fplatform-browser-dynamic
+252 verbose request no auth needed
+253 info attempt registry request try #1 at 9:06:43 AM
+254 verbose request using bearer token for auth
+255 http request GET http://sinopia.trademe.local/@angular%2fplatform-browser-dynamic
+256 verbose request uri http://sinopia.trademe.local/@angular%2frouter
+257 verbose request no auth needed
+258 info attempt registry request try #1 at 9:06:43 AM
+259 verbose request using bearer token for auth
+260 http request GET http://sinopia.trademe.local/@angular%2frouter
+261 verbose request uri http://sinopia.trademe.local/core-js
+262 verbose request no auth needed
+263 info attempt registry request try #1 at 9:06:43 AM
+264 verbose request using bearer token for auth
+265 http request GET http://sinopia.trademe.local/core-js
+266 verbose request uri http://sinopia.trademe.local/reflect-metadata
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 9:06:43 AM
+269 verbose request using bearer token for auth
+270 http request GET http://sinopia.trademe.local/reflect-metadata
+271 verbose request uri http://sinopia.trademe.local/rxjs
+272 verbose request no auth needed
+273 info attempt registry request try #1 at 9:06:43 AM
+274 verbose request using bearer token for auth
+275 http request GET http://sinopia.trademe.local/rxjs
+276 verbose request uri http://sinopia.trademe.local/systemjs
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 9:06:43 AM
+279 verbose request using bearer token for auth
+280 http request GET http://sinopia.trademe.local/systemjs
+281 verbose request uri http://sinopia.trademe.local/zone.js
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 9:06:43 AM
+284 verbose request using bearer token for auth
+285 http request GET http://sinopia.trademe.local/zone.js
+286 verbose request uri http://sinopia.trademe.local/bootstrap
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 9:06:43 AM
+289 verbose request using bearer token for auth
+290 http request GET http://sinopia.trademe.local/bootstrap
+291 verbose request uri http://sinopia.trademe.local/concurrently
+292 verbose request no auth needed
+293 info attempt registry request try #1 at 9:06:43 AM
+294 verbose request using bearer token for auth
+295 http request GET http://sinopia.trademe.local/concurrently
+296 verbose request uri http://sinopia.trademe.local/lite-server
+297 verbose request no auth needed
+298 info attempt registry request try #1 at 9:06:43 AM
+299 verbose request using bearer token for auth
+300 http request GET http://sinopia.trademe.local/lite-server
+301 verbose request uri http://sinopia.trademe.local/tslint
+302 verbose request no auth needed
+303 info attempt registry request try #1 at 9:06:43 AM
+304 verbose request using bearer token for auth
+305 http request GET http://sinopia.trademe.local/tslint
+306 verbose request uri http://sinopia.trademe.local/typescript
+307 verbose request no auth needed
+308 info attempt registry request try #1 at 9:06:43 AM
+309 verbose request using bearer token for auth
+310 http request GET http://sinopia.trademe.local/typescript
+311 verbose request uri http://sinopia.trademe.local/typings
+312 verbose request no auth needed
+313 info attempt registry request try #1 at 9:06:43 AM
+314 verbose request using bearer token for auth
+315 http request GET http://sinopia.trademe.local/typings
+316 verbose request uri http://sinopia.trademe.local/@angular%2fcommon
+317 verbose request no auth needed
+318 info attempt registry request try #1 at 9:06:43 AM
+319 verbose request using bearer token for auth
+320 http request GET http://sinopia.trademe.local/@angular%2fcommon
+321 http 404 http://sinopia.trademe.local/@angular%2fcompiler
+322 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+322 verbose headers   'content-type': 'application/json; charset=utf-8',
+322 verbose headers   'content-length': '43',
+322 verbose headers   etag: 'W/"2b-d418f262"',
+322 verbose headers   vary: 'Accept-Encoding',
+322 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+322 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+322 verbose headers   connection: 'keep-alive' }
+323 silly get cb [ 404,
+323 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+323 silly get     'content-type': 'application/json; charset=utf-8',
+323 silly get     'content-length': '43',
+323 silly get     etag: 'W/"2b-d418f262"',
+323 silly get     vary: 'Accept-Encoding',
+323 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+323 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+323 silly get     connection: 'keep-alive' } ]
+324 http 404 http://sinopia.trademe.local/@angular%2fcore
+325 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+325 verbose headers   'content-type': 'application/json; charset=utf-8',
+325 verbose headers   'content-length': '43',
+325 verbose headers   etag: 'W/"2b-d418f262"',
+325 verbose headers   vary: 'Accept-Encoding',
+325 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+325 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+325 verbose headers   connection: 'keep-alive' }
+326 silly get cb [ 404,
+326 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+326 silly get     'content-type': 'application/json; charset=utf-8',
+326 silly get     'content-length': '43',
+326 silly get     etag: 'W/"2b-d418f262"',
+326 silly get     vary: 'Accept-Encoding',
+326 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+326 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+326 silly get     connection: 'keep-alive' } ]
+327 http 404 http://sinopia.trademe.local/@angular%2fhttp
+328 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+328 verbose headers   'content-type': 'application/json; charset=utf-8',
+328 verbose headers   'content-length': '43',
+328 verbose headers   etag: 'W/"2b-d418f262"',
+328 verbose headers   vary: 'Accept-Encoding',
+328 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+328 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+328 verbose headers   connection: 'keep-alive' }
+329 silly get cb [ 404,
+329 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+329 silly get     'content-type': 'application/json; charset=utf-8',
+329 silly get     'content-length': '43',
+329 silly get     etag: 'W/"2b-d418f262"',
+329 silly get     vary: 'Accept-Encoding',
+329 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+329 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+329 silly get     connection: 'keep-alive' } ]
+330 http 404 http://sinopia.trademe.local/@angular%2fplatform-browser
+331 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+331 verbose headers   'content-type': 'application/json; charset=utf-8',
+331 verbose headers   'content-length': '43',
+331 verbose headers   etag: 'W/"2b-d418f262"',
+331 verbose headers   vary: 'Accept-Encoding',
+331 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+331 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+331 verbose headers   connection: 'keep-alive' }
+332 silly get cb [ 404,
+332 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+332 silly get     'content-type': 'application/json; charset=utf-8',
+332 silly get     'content-length': '43',
+332 silly get     etag: 'W/"2b-d418f262"',
+332 silly get     vary: 'Accept-Encoding',
+332 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+332 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+332 silly get     connection: 'keep-alive' } ]
+333 http 404 http://sinopia.trademe.local/@angular%2fforms
+334 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+334 verbose headers   'content-type': 'application/json; charset=utf-8',
+334 verbose headers   'content-length': '43',
+334 verbose headers   etag: 'W/"2b-d418f262"',
+334 verbose headers   vary: 'Accept-Encoding',
+334 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+334 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+334 verbose headers   connection: 'keep-alive' }
+335 silly get cb [ 404,
+335 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+335 silly get     'content-type': 'application/json; charset=utf-8',
+335 silly get     'content-length': '43',
+335 silly get     etag: 'W/"2b-d418f262"',
+335 silly get     vary: 'Accept-Encoding',
+335 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+335 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+335 silly get     connection: 'keep-alive' } ]
+336 http 404 http://sinopia.trademe.local/@angular%2fplatform-browser-dynamic
+337 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+337 verbose headers   'content-type': 'application/json; charset=utf-8',
+337 verbose headers   'content-length': '43',
+337 verbose headers   etag: 'W/"2b-d418f262"',
+337 verbose headers   vary: 'Accept-Encoding',
+337 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+337 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+337 verbose headers   connection: 'keep-alive' }
+338 silly get cb [ 404,
+338 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+338 silly get     'content-type': 'application/json; charset=utf-8',
+338 silly get     'content-length': '43',
+338 silly get     etag: 'W/"2b-d418f262"',
+338 silly get     vary: 'Accept-Encoding',
+338 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+338 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+338 silly get     connection: 'keep-alive' } ]
+339 http 404 http://sinopia.trademe.local/@angular%2frouter
+340 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+340 verbose headers   'content-type': 'application/json; charset=utf-8',
+340 verbose headers   'content-length': '43',
+340 verbose headers   etag: 'W/"2b-d418f262"',
+340 verbose headers   vary: 'Accept-Encoding',
+340 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+340 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+340 verbose headers   connection: 'keep-alive' }
+341 silly get cb [ 404,
+341 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+341 silly get     'content-type': 'application/json; charset=utf-8',
+341 silly get     'content-length': '43',
+341 silly get     etag: 'W/"2b-d418f262"',
+341 silly get     vary: 'Accept-Encoding',
+341 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+341 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+341 silly get     connection: 'keep-alive' } ]
+342 http 404 http://sinopia.trademe.local/@angular%2fcommon
+343 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+343 verbose headers   'content-type': 'application/json; charset=utf-8',
+343 verbose headers   'content-length': '43',
+343 verbose headers   etag: 'W/"2b-d418f262"',
+343 verbose headers   vary: 'Accept-Encoding',
+343 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+343 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+343 verbose headers   connection: 'keep-alive' }
+344 silly get cb [ 404,
+344 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+344 silly get     'content-type': 'application/json; charset=utf-8',
+344 silly get     'content-length': '43',
+344 silly get     etag: 'W/"2b-d418f262"',
+344 silly get     vary: 'Accept-Encoding',
+344 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+344 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+344 silly get     connection: 'keep-alive' } ]
+345 http 200 http://sinopia.trademe.local/tslint
+346 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+346 verbose headers   'content-type': 'application/json; charset=utf-8',
+346 verbose headers   etag: '"6f929f67d3184513862cad8b1939f381"',
+346 verbose headers   vary: 'Accept-Encoding',
+346 verbose headers   'content-encoding': 'gzip',
+346 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+346 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+346 verbose headers   connection: 'keep-alive',
+346 verbose headers   'transfer-encoding': 'chunked' }
+347 silly get cb [ 200,
+347 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+347 silly get     'content-type': 'application/json; charset=utf-8',
+347 silly get     etag: '"6f929f67d3184513862cad8b1939f381"',
+347 silly get     vary: 'Accept-Encoding',
+347 silly get     'content-encoding': 'gzip',
+347 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+347 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+347 silly get     connection: 'keep-alive',
+347 silly get     'transfer-encoding': 'chunked' } ]
+348 verbose get saving tslint to /Users/tgray/.npm/sinopia.trademe.local/tslint/.cache.json
+349 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+350 silly addNameRange number 2 { name: 'tslint', range: '>=3.7.4 <4.0.0', hasData: true }
+351 silly addNameRange versions [ 'tslint',
+351 silly addNameRange   [ '0.1.0',
+351 silly addNameRange     '0.1.1',
+351 silly addNameRange     '0.1.2',
+351 silly addNameRange     '0.1.3',
+351 silly addNameRange     '0.1.4',
+351 silly addNameRange     '0.1.5',
+351 silly addNameRange     '0.1.6',
+351 silly addNameRange     '0.2.0',
+351 silly addNameRange     '0.2.1',
+351 silly addNameRange     '0.2.3',
+351 silly addNameRange     '0.2.4',
+351 silly addNameRange     '0.2.5',
+351 silly addNameRange     '0.2.6',
+351 silly addNameRange     '0.2.7',
+351 silly addNameRange     '0.2.8',
+351 silly addNameRange     '0.2.9',
+351 silly addNameRange     '0.2.10',
+351 silly addNameRange     '0.3.0',
+351 silly addNameRange     '0.3.1',
+351 silly addNameRange     '0.3.2',
+351 silly addNameRange     '0.3.3',
+351 silly addNameRange     '0.4.0',
+351 silly addNameRange     '0.4.1',
+351 silly addNameRange     '0.4.2',
+351 silly addNameRange     '0.4.3',
+351 silly addNameRange     '0.4.4',
+351 silly addNameRange     '0.4.5',
+351 silly addNameRange     '0.4.6',
+351 silly addNameRange     '0.4.7',
+351 silly addNameRange     '0.4.8',
+351 silly addNameRange     '0.4.9',
+351 silly addNameRange     '0.4.10',
+351 silly addNameRange     '0.4.11',
+351 silly addNameRange     '0.4.12',
+351 silly addNameRange     '0.4.13',
+351 silly addNameRange     '0.4.14',
+351 silly addNameRange     '1.0.0',
+351 silly addNameRange     '1.0.1',
+351 silly addNameRange     '1.2.0',
+351 silly addNameRange     '2.0.0',
+351 silly addNameRange     '2.0.1',
+351 silly addNameRange     '2.1.0',
+351 silly addNameRange     '2.1.1',
+351 silly addNameRange     '2.2.0-beta',
+351 silly addNameRange     '2.3.0-beta',
+351 silly addNameRange     '2.3.1-beta',
+351 silly addNameRange     '2.4.0',
+351 silly addNameRange     '2.4.1',
+351 silly addNameRange     '2.4.2',
+351 silly addNameRange     '2.5.0-dev.1',
+351 silly addNameRange     '2.5.0-dev.2',
+351 silly addNameRange     '2.4.3',
+351 silly addNameRange     '2.5.0-dev.3',
+351 silly addNameRange     '2.5.0-dev.4',
+351 silly addNameRange     '2.4.4',
+351 silly addNameRange     '2.5.0-dev.5',
+351 silly addNameRange     '2.4.5',
+351 silly addNameRange     '2.5.0-beta',
+351 silly addNameRange     '2.5.0',
+351 silly addNameRange     '2.6.0-dev.1',
+351 silly addNameRange     '2.5.1',
+351 silly addNameRange     '2.6.0-dev.2',
+351 silly addNameRange     '3.0.0-dev.1',
+351 silly addNameRange     '3.0.0-dev.2',
+351 silly addNameRange     '3.0.0-dev.3',
+351 silly addNameRange     '3.0.0',
+351 silly addNameRange     '3.1.0-dev.1',
+351 silly addNameRange     '3.1.0',
+351 silly addNameRange     '3.1.1',
+351 silly addNameRange     '3.2.0-dev.1',
+351 silly addNameRange     '3.2.0-dev.2',
+351 silly addNameRange     '3.2.0',
+351 silly addNameRange     '3.2.1-dev.1',
+351 silly addNameRange     '3.2.1',
+351 silly addNameRange     '3.2.2-dev.1',
+351 silly addNameRange     '3.2.2',
+351 silly addNameRange     '3.3.0-dev.1',
+351 silly addNameRange     '3.3.0',
+351 silly addNameRange     '3.3.0-dev.2',
+351 silly addNameRange     '3.4.0-dev.1',
+351 silly addNameRange     '3.4.0-dev.2',
+351 silly addNameRange     '3.4.0',
+351 silly addNameRange     '3.5.0-dev.1',
+351 silly addNameRange     '3.5.0',
+351 silly addNameRange     '3.6.0-dev.1',
+351 silly addNameRange     '3.6.0',
+351 silly addNameRange     '3.7.0-dev.1',
+351 silly addNameRange     '3.7.0',
+351 silly addNameRange     '3.7.0-dev.2',
+351 silly addNameRange     '3.7.1',
+351 silly addNameRange     '3.7.0-dev.3',
+351 silly addNameRange     '3.7.2',
+351 silly addNameRange     '3.7.3',
+351 silly addNameRange     '3.7.0-dev.4',
+351 silly addNameRange     '3.7.0-dev.5',
+351 silly addNameRange     '3.7.4',
+351 silly addNameRange     '3.8.0-dev.0',
+351 silly addNameRange     '3.8.0',
+351 silly addNameRange     '3.8.0-dev.1',
+351 silly addNameRange     '3.8.1',
+351 silly addNameRange     '3.9.0-dev.0',
+351 silly addNameRange     '3.9.0',
+351 silly addNameRange     '3.10.0-dev.0',
+351 silly addNameRange     '3.10.0',
+351 silly addNameRange     '3.10.0-dev.1',
+351 silly addNameRange     '3.10.1',
+351 silly addNameRange     '3.10.0-dev.2',
+351 silly addNameRange     '3.10.2',
+351 silly addNameRange     '3.10.0-dev.3',
+351 silly addNameRange     '3.11.0-dev.0',
+351 silly addNameRange     '3.11.0',
+351 silly addNameRange     '3.12.0-dev.0',
+351 silly addNameRange     '3.12.0',
+351 silly addNameRange     '3.12.0-dev.1',
+351 silly addNameRange     '3.12.1',
+351 silly addNameRange     '3.12.0-dev.2',
+351 silly addNameRange     '3.13.0-dev.0',
+351 silly addNameRange     '3.13.0',
+351 silly addNameRange     '3.14.0-dev.0',
+351 silly addNameRange     '3.14.0-dev.1',
+351 silly addNameRange     '3.14.0',
+351 silly addNameRange     '3.15.0-dev.0',
+351 silly addNameRange     '3.15.0',
+351 silly addNameRange     '3.15.1',
+351 silly addNameRange     '4.0.0-dev.0' ] ]
+352 silly addNamed tslint@3.15.1
+353 verbose addNamed "3.15.1" is a plain semver version for tslint
+354 silly mapToRegistry name tslint
+355 silly mapToRegistry using default registry
+356 silly mapToRegistry registry http://sinopia.trademe.local/
+357 silly mapToRegistry uri http://sinopia.trademe.local/tslint
+358 verbose addRemoteTarball http://sinopia.trademe.local/tslint/-/tslint-3.15.1.tgz not in flight; adding
+359 verbose addRemoteTarball [ 'http://sinopia.trademe.local/tslint/-/tslint-3.15.1.tgz',
+359 verbose addRemoteTarball   'da165ca93d8fdc2c086b51165ee1bacb48c98ea5' ]
+360 info retry fetch attempt 1 at 9:06:43 AM
+361 info attempt registry request try #1 at 9:06:43 AM
+362 http fetch GET http://sinopia.trademe.local/tslint/-/tslint-3.15.1.tgz
+363 verbose request using bearer token for auth
+364 http fetch 200 http://sinopia.trademe.local/tslint/-/tslint-3.15.1.tgz
+365 http 200 http://sinopia.trademe.local/concurrently
+366 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+366 verbose headers   'content-type': 'application/json; charset=utf-8',
+366 verbose headers   etag: '"9c1ff9510c534976dfe82b128277ade7"',
+366 verbose headers   vary: 'Accept-Encoding',
+366 verbose headers   'content-encoding': 'gzip',
+366 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+366 verbose headers   date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+366 verbose headers   connection: 'keep-alive',
+366 verbose headers   'transfer-encoding': 'chunked' }
+367 silly get cb [ 200,
+367 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+367 silly get     'content-type': 'application/json; charset=utf-8',
+367 silly get     etag: '"9c1ff9510c534976dfe82b128277ade7"',
+367 silly get     vary: 'Accept-Encoding',
+367 silly get     'content-encoding': 'gzip',
+367 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+367 silly get     date: 'Wed, 02 Nov 2016 20:06:43 GMT',
+367 silly get     connection: 'keep-alive',
+367 silly get     'transfer-encoding': 'chunked' } ]
+368 verbose get saving concurrently to /Users/tgray/.npm/sinopia.trademe.local/concurrently/.cache.json
+369 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+370 silly addNameRange number 2 { name: 'concurrently', range: '>=2.2.0 <3.0.0', hasData: true }
+371 silly addNameRange versions [ 'concurrently',
+371 silly addNameRange   [ '0.0.2',
+371 silly addNameRange     '0.0.3',
+371 silly addNameRange     '0.0.4',
+371 silly addNameRange     '0.0.5',
+371 silly addNameRange     '0.1.0',
+371 silly addNameRange     '0.1.1',
+371 silly addNameRange     '1.0.0',
+371 silly addNameRange     '2.0.0',
+371 silly addNameRange     '2.1.0',
+371 silly addNameRange     '2.2.0',
+371 silly addNameRange     '3.0.0-dev',
+371 silly addNameRange     '3.0.0-rc1',
+371 silly addNameRange     '3.0.0',
+371 silly addNameRange     '3.1.0' ] ]
+372 silly addNamed concurrently@2.2.0
+373 verbose addNamed "2.2.0" is a plain semver version for concurrently
+374 silly mapToRegistry name concurrently
+375 silly mapToRegistry using default registry
+376 silly mapToRegistry registry http://sinopia.trademe.local/
+377 silly mapToRegistry uri http://sinopia.trademe.local/concurrently
+378 verbose addRemoteTarball http://sinopia.trademe.local/concurrently/-/concurrently-2.2.0.tgz not in flight; adding
+379 verbose addRemoteTarball [ 'http://sinopia.trademe.local/concurrently/-/concurrently-2.2.0.tgz',
+379 verbose addRemoteTarball   'bad248e0bb129fb1621768903a6311d45d56895a' ]
+380 info retry fetch attempt 1 at 9:06:43 AM
+381 info attempt registry request try #1 at 9:06:43 AM
+382 http fetch GET http://sinopia.trademe.local/concurrently/-/concurrently-2.2.0.tgz
+383 verbose request using bearer token for auth
+384 http fetch 200 http://sinopia.trademe.local/concurrently/-/concurrently-2.2.0.tgz
+385 silly fetchAndShaCheck shasum da165ca93d8fdc2c086b51165ee1bacb48c98ea5
+386 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/tslint/-/tslint-3.15.1.tgz not in flight; adding
+387 verbose addTmpTarball already have metadata; skipping unpack for tslint@3.15.1
+388 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+389 silly fetchAndShaCheck shasum bad248e0bb129fb1621768903a6311d45d56895a
+390 silly cache afterAdd tslint@3.15.1
+391 verbose afterAdd /Users/tgray/.npm/tslint/3.15.1/package/package.json not in flight; writing
+392 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+393 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/concurrently/-/concurrently-2.2.0.tgz not in flight; adding
+394 verbose addTmpTarball already have metadata; skipping unpack for concurrently@2.2.0
+395 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+396 verbose afterAdd /Users/tgray/.npm/tslint/3.15.1/package/package.json written
+397 silly cache afterAdd concurrently@2.2.0
+398 verbose afterAdd /Users/tgray/.npm/concurrently/2.2.0/package/package.json not in flight; writing
+399 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+400 verbose afterAdd /Users/tgray/.npm/concurrently/2.2.0/package/package.json written
+401 http 200 http://sinopia.trademe.local/systemjs
+402 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+402 verbose headers   'content-type': 'application/json; charset=utf-8',
+402 verbose headers   etag: '"9298ccaa3ac0819221d886633dea4ddc"',
+402 verbose headers   vary: 'Accept-Encoding',
+402 verbose headers   'content-encoding': 'gzip',
+402 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+402 verbose headers   date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+402 verbose headers   connection: 'keep-alive',
+402 verbose headers   'transfer-encoding': 'chunked' }
+403 silly get cb [ 200,
+403 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+403 silly get     'content-type': 'application/json; charset=utf-8',
+403 silly get     etag: '"9298ccaa3ac0819221d886633dea4ddc"',
+403 silly get     vary: 'Accept-Encoding',
+403 silly get     'content-encoding': 'gzip',
+403 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+403 silly get     date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+403 silly get     connection: 'keep-alive',
+403 silly get     'transfer-encoding': 'chunked' } ]
+404 verbose get saving systemjs to /Users/tgray/.npm/sinopia.trademe.local/systemjs/.cache.json
+405 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+406 silly mapToRegistry name systemjs
+407 silly mapToRegistry using default registry
+408 silly mapToRegistry registry http://sinopia.trademe.local/
+409 silly mapToRegistry uri http://sinopia.trademe.local/systemjs
+410 verbose addRemoteTarball http://sinopia.trademe.local/systemjs/-/systemjs-0.19.27.tgz not in flight; adding
+411 verbose addRemoteTarball [ 'http://sinopia.trademe.local/systemjs/-/systemjs-0.19.27.tgz',
+411 verbose addRemoteTarball   'f1740d565ce64371ac0de7072a4d1e5471ba7ba2' ]
+412 info retry fetch attempt 1 at 9:06:44 AM
+413 info attempt registry request try #1 at 9:06:44 AM
+414 http fetch GET http://sinopia.trademe.local/systemjs/-/systemjs-0.19.27.tgz
+415 verbose request using bearer token for auth
+416 http fetch 200 http://sinopia.trademe.local/systemjs/-/systemjs-0.19.27.tgz
+417 http 200 http://sinopia.trademe.local/core-js
+418 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+418 verbose headers   'content-type': 'application/json; charset=utf-8',
+418 verbose headers   etag: '"6909db02431f4418950cbf0e8602137f"',
+418 verbose headers   vary: 'Accept-Encoding',
+418 verbose headers   'content-encoding': 'gzip',
+418 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+418 verbose headers   date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+418 verbose headers   connection: 'keep-alive',
+418 verbose headers   'transfer-encoding': 'chunked' }
+419 silly get cb [ 200,
+419 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+419 silly get     'content-type': 'application/json; charset=utf-8',
+419 silly get     etag: '"6909db02431f4418950cbf0e8602137f"',
+419 silly get     vary: 'Accept-Encoding',
+419 silly get     'content-encoding': 'gzip',
+419 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+419 silly get     date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+419 silly get     connection: 'keep-alive',
+419 silly get     'transfer-encoding': 'chunked' } ]
+420 verbose get saving core-js to /Users/tgray/.npm/sinopia.trademe.local/core-js/.cache.json
+421 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+422 silly addNameRange number 2 { name: 'core-js', range: '>=2.4.1 <3.0.0', hasData: true }
+423 silly addNameRange versions [ 'core-js',
+423 silly addNameRange   [ '0.0.3',
+423 silly addNameRange     '0.0.4',
+423 silly addNameRange     '0.0.5',
+423 silly addNameRange     '0.0.7',
+423 silly addNameRange     '0.0.8',
+423 silly addNameRange     '0.0.9',
+423 silly addNameRange     '0.1.1',
+423 silly addNameRange     '0.1.2',
+423 silly addNameRange     '0.1.3',
+423 silly addNameRange     '0.1.4',
+423 silly addNameRange     '0.1.5',
+423 silly addNameRange     '0.2.0',
+423 silly addNameRange     '0.2.1',
+423 silly addNameRange     '0.2.2',
+423 silly addNameRange     '0.2.3',
+423 silly addNameRange     '0.2.4',
+423 silly addNameRange     '0.2.5',
+423 silly addNameRange     '0.3.0',
+423 silly addNameRange     '0.3.1',
+423 silly addNameRange     '0.3.2',
+423 silly addNameRange     '0.3.3',
+423 silly addNameRange     '0.4.0',
+423 silly addNameRange     '0.4.1',
+423 silly addNameRange     '0.4.2',
+423 silly addNameRange     '0.4.3',
+423 silly addNameRange     '0.4.4',
+423 silly addNameRange     '0.4.5',
+423 silly addNameRange     '0.4.6',
+423 silly addNameRange     '0.4.7',
+423 silly addNameRange     '0.4.8',
+423 silly addNameRange     '0.4.9',
+423 silly addNameRange     '0.4.10',
+423 silly addNameRange     '0.5.0',
+423 silly addNameRange     '0.5.1',
+423 silly addNameRange     '0.5.2',
+423 silly addNameRange     '0.5.3',
+423 silly addNameRange     '0.5.4',
+423 silly addNameRange     '0.6.0',
+423 silly addNameRange     '0.6.1',
+423 silly addNameRange     '0.7.0',
+423 silly addNameRange     '0.7.1',
+423 silly addNameRange     '0.7.2',
+423 silly addNameRange     '0.8.0',
+423 silly addNameRange     '0.8.1',
+423 silly addNameRange     '0.8.2',
+423 silly addNameRange     '0.8.3',
+423 silly addNameRange     '0.8.4',
+423 silly addNameRange     '0.9.0',
+423 silly addNameRange     '0.9.1',
+423 silly addNameRange     '0.9.2',
+423 silly addNameRange     '0.9.3',
+423 silly addNameRange     '0.9.4',
+423 silly addNameRange     '0.9.5',
+423 silly addNameRange     '0.9.6',
+423 silly addNameRange     '0.9.7',
+423 silly addNameRange     '0.9.8',
+423 silly addNameRange     '0.9.9',
+423 silly addNameRange     '0.9.10',
+423 silly addNameRange     '0.9.11',
+423 silly addNameRange     '0.9.12',
+423 silly addNameRange     '0.9.13',
+423 silly addNameRange     '0.9.14',
+423 silly addNameRange     '0.9.15',
+423 silly addNameRange     '0.9.16',
+423 silly addNameRange     '0.9.17',
+423 silly addNameRange     '0.9.18',
+423 silly addNameRange     '1.0.0',
+423 silly addNameRange     '1.0.1',
+423 silly addNameRange     '1.1.0',
+423 silly addNameRange     '1.1.1',
+423 silly addNameRange     '1.1.2',
+423 silly addNameRange     '1.1.3',
+423 silly addNameRange     '1.1.4',
+423 silly addNameRange     '1.2.0',
+423 silly addNameRange     '1.2.1',
+423 silly addNameRange     '1.2.2',
+423 silly addNameRange     '1.2.3',
+423 silly addNameRange     '1.2.4',
+423 silly addNameRange     '1.2.5',
+423 silly addNameRange     '1.2.6',
+423 silly addNameRange     '2.0.0-alpha',
+423 silly addNameRange     '2.0.0-beta',
+423 silly addNameRange     '2.0.0-beta.2',
+423 silly addNameRange     '2.0.0',
+423 silly addNameRange     '2.0.1',
+423 silly addNameRange     '2.0.2',
+423 silly addNameRange     '2.0.3',
+423 silly addNameRange     '2.1.0',
+423 silly addNameRange     '2.1.1',
+423 silly addNameRange     '2.1.2',
+423 silly addNameRange     '2.1.3',
+423 silly addNameRange     '2.1.4',
+423 silly addNameRange     '2.1.5',
+423 silly addNameRange     '2.2.0',
+423 silly addNameRange     '2.2.1',
+423 silly addNameRange     '2.2.2',
+423 silly addNameRange     '2.3.0',
+423 silly addNameRange     '2.4.0',
+423 silly addNameRange     '1.2.7',
+423 silly addNameRange     '2.4.1' ] ]
+424 silly addNamed core-js@2.4.1
+425 verbose addNamed "2.4.1" is a plain semver version for core-js
+426 silly mapToRegistry name core-js
+427 silly mapToRegistry using default registry
+428 silly mapToRegistry registry http://sinopia.trademe.local/
+429 silly mapToRegistry uri http://sinopia.trademe.local/core-js
+430 verbose addRemoteTarball http://sinopia.trademe.local/core-js/-/core-js-2.4.1.tgz not in flight; adding
+431 verbose addRemoteTarball [ 'http://sinopia.trademe.local/core-js/-/core-js-2.4.1.tgz',
+431 verbose addRemoteTarball   '4de911e667b0eae9124e34254b53aea6fc618d3e' ]
+432 info retry fetch attempt 1 at 9:06:44 AM
+433 info attempt registry request try #1 at 9:06:44 AM
+434 http fetch GET http://sinopia.trademe.local/core-js/-/core-js-2.4.1.tgz
+435 verbose request using bearer token for auth
+436 http fetch 200 http://sinopia.trademe.local/core-js/-/core-js-2.4.1.tgz
+437 silly fetchAndShaCheck shasum f1740d565ce64371ac0de7072a4d1e5471ba7ba2
+438 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/systemjs/-/systemjs-0.19.27.tgz not in flight; adding
+439 verbose addTmpTarball already have metadata; skipping unpack for systemjs@0.19.27
+440 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+441 silly cache afterAdd systemjs@0.19.27
+442 verbose afterAdd /Users/tgray/.npm/systemjs/0.19.27/package/package.json not in flight; writing
+443 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+444 verbose afterAdd /Users/tgray/.npm/systemjs/0.19.27/package/package.json written
+445 http 200 http://sinopia.trademe.local/bootstrap
+446 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+446 verbose headers   'content-type': 'application/json; charset=utf-8',
+446 verbose headers   etag: '"08362b1faaa410f845c67b9c6a964447"',
+446 verbose headers   vary: 'Accept-Encoding',
+446 verbose headers   'content-encoding': 'gzip',
+446 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+446 verbose headers   date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+446 verbose headers   connection: 'keep-alive',
+446 verbose headers   'transfer-encoding': 'chunked' }
+447 silly get cb [ 200,
+447 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+447 silly get     'content-type': 'application/json; charset=utf-8',
+447 silly get     etag: '"08362b1faaa410f845c67b9c6a964447"',
+447 silly get     vary: 'Accept-Encoding',
+447 silly get     'content-encoding': 'gzip',
+447 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+447 silly get     date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+447 silly get     connection: 'keep-alive',
+447 silly get     'transfer-encoding': 'chunked' } ]
+448 verbose get saving bootstrap to /Users/tgray/.npm/sinopia.trademe.local/bootstrap/.cache.json
+449 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+450 silly addNameRange number 2 { name: 'bootstrap', range: '>=3.3.6 <4.0.0', hasData: true }
+451 silly addNameRange versions [ 'bootstrap',
+451 silly addNameRange   [ '0.0.1',
+451 silly addNameRange     '0.0.2',
+451 silly addNameRange     '3.1.1',
+451 silly addNameRange     '3.2.0',
+451 silly addNameRange     '3.3.0',
+451 silly addNameRange     '3.3.1',
+451 silly addNameRange     '3.3.2',
+451 silly addNameRange     '3.3.4',
+451 silly addNameRange     '3.3.5',
+451 silly addNameRange     '3.3.6',
+451 silly addNameRange     '4.0.0-alpha.2',
+451 silly addNameRange     '3.3.7',
+451 silly addNameRange     '4.0.0-alpha.3',
+451 silly addNameRange     '4.0.0-alpha.4',
+451 silly addNameRange     '4.0.0-alpha.5' ] ]
+452 silly addNamed bootstrap@3.3.7
+453 verbose addNamed "3.3.7" is a plain semver version for bootstrap
+454 silly mapToRegistry name bootstrap
+455 silly mapToRegistry using default registry
+456 silly mapToRegistry registry http://sinopia.trademe.local/
+457 silly mapToRegistry uri http://sinopia.trademe.local/bootstrap
+458 verbose addRemoteTarball http://sinopia.trademe.local/bootstrap/-/bootstrap-3.3.7.tgz not in flight; adding
+459 verbose addRemoteTarball [ 'http://sinopia.trademe.local/bootstrap/-/bootstrap-3.3.7.tgz',
+459 verbose addRemoteTarball   '5a389394549f23330875a3b150656574f8a9eb71' ]
+460 info retry fetch attempt 1 at 9:06:44 AM
+461 info attempt registry request try #1 at 9:06:44 AM
+462 http fetch GET http://sinopia.trademe.local/bootstrap/-/bootstrap-3.3.7.tgz
+463 verbose request using bearer token for auth
+464 http fetch 200 http://sinopia.trademe.local/bootstrap/-/bootstrap-3.3.7.tgz
+465 http 200 http://sinopia.trademe.local/reflect-metadata
+466 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+466 verbose headers   'content-type': 'application/json; charset=utf-8',
+466 verbose headers   etag: '"963953c2c015374862073331f1822043"',
+466 verbose headers   vary: 'Accept-Encoding',
+466 verbose headers   'content-encoding': 'gzip',
+466 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+466 verbose headers   date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+466 verbose headers   connection: 'keep-alive',
+466 verbose headers   'transfer-encoding': 'chunked' }
+467 silly get cb [ 200,
+467 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+467 silly get     'content-type': 'application/json; charset=utf-8',
+467 silly get     etag: '"963953c2c015374862073331f1822043"',
+467 silly get     vary: 'Accept-Encoding',
+467 silly get     'content-encoding': 'gzip',
+467 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+467 silly get     date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+467 silly get     connection: 'keep-alive',
+467 silly get     'transfer-encoding': 'chunked' } ]
+468 verbose get saving reflect-metadata to /Users/tgray/.npm/sinopia.trademe.local/reflect-metadata/.cache.json
+469 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+470 silly addNameRange number 2 { name: 'reflect-metadata',
+470 silly addNameRange   range: '>=0.1.3 <0.2.0',
+470 silly addNameRange   hasData: true }
+471 silly addNameRange versions [ 'reflect-metadata',
+471 silly addNameRange   [ '0.0.2',
+471 silly addNameRange     '0.0.3',
+471 silly addNameRange     '0.1.0',
+471 silly addNameRange     '0.1.1',
+471 silly addNameRange     '0.1.2',
+471 silly addNameRange     '0.1.3',
+471 silly addNameRange     '0.1.4',
+471 silly addNameRange     '0.1.5',
+471 silly addNameRange     '0.1.6',
+471 silly addNameRange     '0.1.7',
+471 silly addNameRange     '0.1.8' ] ]
+472 silly addNamed reflect-metadata@0.1.8
+473 verbose addNamed "0.1.8" is a plain semver version for reflect-metadata
+474 silly mapToRegistry name reflect-metadata
+475 silly mapToRegistry using default registry
+476 silly mapToRegistry registry http://sinopia.trademe.local/
+477 silly mapToRegistry uri http://sinopia.trademe.local/reflect-metadata
+478 verbose addRemoteTarball http://sinopia.trademe.local/reflect-metadata/-/reflect-metadata-0.1.8.tgz not in flight; adding
+479 verbose addRemoteTarball [ 'http://sinopia.trademe.local/reflect-metadata/-/reflect-metadata-0.1.8.tgz',
+479 verbose addRemoteTarball   '72426d570b60776e3688968bd5ab9537a15cecf6' ]
+480 info retry fetch attempt 1 at 9:06:44 AM
+481 info attempt registry request try #1 at 9:06:44 AM
+482 http fetch GET http://sinopia.trademe.local/reflect-metadata/-/reflect-metadata-0.1.8.tgz
+483 verbose request using bearer token for auth
+484 silly fetchAndShaCheck shasum 4de911e667b0eae9124e34254b53aea6fc618d3e
+485 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/core-js/-/core-js-2.4.1.tgz not in flight; adding
+486 verbose addTmpTarball already have metadata; skipping unpack for core-js@2.4.1
+487 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+488 silly cache afterAdd core-js@2.4.1
+489 verbose afterAdd /Users/tgray/.npm/core-js/2.4.1/package/package.json not in flight; writing
+490 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+491 verbose afterAdd /Users/tgray/.npm/core-js/2.4.1/package/package.json written
+492 http fetch 200 http://sinopia.trademe.local/reflect-metadata/-/reflect-metadata-0.1.8.tgz
+493 http 200 http://sinopia.trademe.local/rxjs
+494 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+494 verbose headers   'content-type': 'application/json; charset=utf-8',
+494 verbose headers   etag: '"1e02d557ec0a19f0d3e0e3b4a96f94ab"',
+494 verbose headers   vary: 'Accept-Encoding',
+494 verbose headers   'content-encoding': 'gzip',
+494 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+494 verbose headers   date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+494 verbose headers   connection: 'keep-alive',
+494 verbose headers   'transfer-encoding': 'chunked' }
+495 silly get cb [ 200,
+495 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+495 silly get     'content-type': 'application/json; charset=utf-8',
+495 silly get     etag: '"1e02d557ec0a19f0d3e0e3b4a96f94ab"',
+495 silly get     vary: 'Accept-Encoding',
+495 silly get     'content-encoding': 'gzip',
+495 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+495 silly get     date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+495 silly get     connection: 'keep-alive',
+495 silly get     'transfer-encoding': 'chunked' } ]
+496 verbose get saving rxjs to /Users/tgray/.npm/sinopia.trademe.local/rxjs/.cache.json
+497 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+498 http 200 http://sinopia.trademe.local/lite-server
+499 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+499 verbose headers   'content-type': 'application/json; charset=utf-8',
+499 verbose headers   etag: '"58e21fe805c7027cb58df431fb283407"',
+499 verbose headers   vary: 'Accept-Encoding',
+499 verbose headers   'content-encoding': 'gzip',
+499 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+499 verbose headers   date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+499 verbose headers   connection: 'keep-alive',
+499 verbose headers   'transfer-encoding': 'chunked' }
+500 silly get cb [ 200,
+500 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+500 silly get     'content-type': 'application/json; charset=utf-8',
+500 silly get     etag: '"58e21fe805c7027cb58df431fb283407"',
+500 silly get     vary: 'Accept-Encoding',
+500 silly get     'content-encoding': 'gzip',
+500 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+500 silly get     date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+500 silly get     connection: 'keep-alive',
+500 silly get     'transfer-encoding': 'chunked' } ]
+501 verbose get saving lite-server to /Users/tgray/.npm/sinopia.trademe.local/lite-server/.cache.json
+502 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+503 silly mapToRegistry name rxjs
+504 silly mapToRegistry using default registry
+505 silly mapToRegistry registry http://sinopia.trademe.local/
+506 silly mapToRegistry uri http://sinopia.trademe.local/rxjs
+507 verbose addRemoteTarball http://sinopia.trademe.local/rxjs/-/rxjs-5.0.0-beta.12.tgz not in flight; adding
+508 verbose addRemoteTarball [ 'http://sinopia.trademe.local/rxjs/-/rxjs-5.0.0-beta.12.tgz',
+508 verbose addRemoteTarball   'cdfde2d8c4639d20ae7794bff8fddf32da7ad337' ]
+509 info retry fetch attempt 1 at 9:06:44 AM
+510 info attempt registry request try #1 at 9:06:44 AM
+511 http fetch GET http://sinopia.trademe.local/rxjs/-/rxjs-5.0.0-beta.12.tgz
+512 verbose request using bearer token for auth
+513 silly addNameRange number 2 { name: 'lite-server', range: '>=2.2.0 <3.0.0', hasData: true }
+514 silly addNameRange versions [ 'lite-server',
+514 silly addNameRange   [ '1.0.0',
+514 silly addNameRange     '1.0.1',
+514 silly addNameRange     '1.0.3',
+514 silly addNameRange     '1.1.0',
+514 silly addNameRange     '1.2.0',
+514 silly addNameRange     '1.3.0',
+514 silly addNameRange     '1.3.1',
+514 silly addNameRange     '1.3.2',
+514 silly addNameRange     '1.3.3',
+514 silly addNameRange     '1.3.4',
+514 silly addNameRange     '2.0.0',
+514 silly addNameRange     '2.0.1',
+514 silly addNameRange     '2.1.0',
+514 silly addNameRange     '2.2.0',
+514 silly addNameRange     '2.2.2' ] ]
+515 silly addNamed lite-server@2.2.2
+516 verbose addNamed "2.2.2" is a plain semver version for lite-server
+517 silly mapToRegistry name lite-server
+518 silly mapToRegistry using default registry
+519 silly mapToRegistry registry http://sinopia.trademe.local/
+520 silly mapToRegistry uri http://sinopia.trademe.local/lite-server
+521 verbose addRemoteTarball http://sinopia.trademe.local/lite-server/-/lite-server-2.2.2.tgz not in flight; adding
+522 verbose addRemoteTarball [ 'http://sinopia.trademe.local/lite-server/-/lite-server-2.2.2.tgz',
+522 verbose addRemoteTarball   '4644afe6c9146d850cfa0ad9a86a94f87156499e' ]
+523 info retry fetch attempt 1 at 9:06:44 AM
+524 info attempt registry request try #1 at 9:06:44 AM
+525 http fetch GET http://sinopia.trademe.local/lite-server/-/lite-server-2.2.2.tgz
+526 verbose request using bearer token for auth
+527 silly fetchAndShaCheck shasum 72426d570b60776e3688968bd5ab9537a15cecf6
+528 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/reflect-metadata/-/reflect-metadata-0.1.8.tgz not in flight; adding
+529 verbose addTmpTarball already have metadata; skipping unpack for reflect-metadata@0.1.8
+530 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+531 silly cache afterAdd reflect-metadata@0.1.8
+532 verbose afterAdd /Users/tgray/.npm/reflect-metadata/0.1.8/package/package.json not in flight; writing
+533 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+534 verbose afterAdd /Users/tgray/.npm/reflect-metadata/0.1.8/package/package.json written
+535 http fetch 200 http://sinopia.trademe.local/lite-server/-/lite-server-2.2.2.tgz
+536 silly fetchAndShaCheck shasum 4644afe6c9146d850cfa0ad9a86a94f87156499e
+537 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/lite-server/-/lite-server-2.2.2.tgz not in flight; adding
+538 verbose addTmpTarball already have metadata; skipping unpack for lite-server@2.2.2
+539 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+540 silly cache afterAdd lite-server@2.2.2
+541 verbose afterAdd /Users/tgray/.npm/lite-server/2.2.2/package/package.json not in flight; writing
+542 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+543 verbose afterAdd /Users/tgray/.npm/lite-server/2.2.2/package/package.json written
+544 http 200 http://sinopia.trademe.local/typescript
+545 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+545 verbose headers   'content-type': 'application/json; charset=utf-8',
+545 verbose headers   etag: '"0d0a398e28bbe7c2fa36661d82303637"',
+545 verbose headers   vary: 'Accept-Encoding',
+545 verbose headers   'content-encoding': 'gzip',
+545 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+545 verbose headers   date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+545 verbose headers   connection: 'keep-alive',
+545 verbose headers   'transfer-encoding': 'chunked' }
+546 silly get cb [ 200,
+546 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+546 silly get     'content-type': 'application/json; charset=utf-8',
+546 silly get     etag: '"0d0a398e28bbe7c2fa36661d82303637"',
+546 silly get     vary: 'Accept-Encoding',
+546 silly get     'content-encoding': 'gzip',
+546 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+546 silly get     date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+546 silly get     connection: 'keep-alive',
+546 silly get     'transfer-encoding': 'chunked' } ]
+547 verbose get saving typescript to /Users/tgray/.npm/sinopia.trademe.local/typescript/.cache.json
+548 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+549 http fetch 200 http://sinopia.trademe.local/rxjs/-/rxjs-5.0.0-beta.12.tgz
+550 silly addNameRange number 2 { name: 'typescript', range: '>=2.0.2 <3.0.0', hasData: true }
+551 silly addNameRange versions [ 'typescript',
+551 silly addNameRange   [ '0.8.0',
+551 silly addNameRange     '0.8.1',
+551 silly addNameRange     '0.8.1-1',
+551 silly addNameRange     '0.8.2',
+551 silly addNameRange     '0.8.3',
+551 silly addNameRange     '0.9.0',
+551 silly addNameRange     '0.9.0-1',
+551 silly addNameRange     '0.9.1',
+551 silly addNameRange     '0.9.1-1',
+551 silly addNameRange     '0.9.5',
+551 silly addNameRange     '0.9.7',
+551 silly addNameRange     '1.0.0',
+551 silly addNameRange     '1.0.1',
+551 silly addNameRange     '1.1.0-1',
+551 silly addNameRange     '1.3.0',
+551 silly addNameRange     '1.4.1',
+551 silly addNameRange     '1.5.0-alpha',
+551 silly addNameRange     '1.5.0-beta',
+551 silly addNameRange     '1.5.3',
+551 silly addNameRange     '1.6.0-dev.20150722.1',
+551 silly addNameRange     '1.6.0-dev.20150723',
+551 silly addNameRange     '1.6.0-dev.20150724',
+551 silly addNameRange     '1.6.0-dev.20150725',
+551 silly addNameRange     '1.6.0-dev.20150726',
+551 silly addNameRange     '1.6.0-dev.20150727',
+551 silly addNameRange     '1.6.0-dev.20150728',
+551 silly addNameRange     '1.6.0-dev.20150729',
+551 silly addNameRange     '1.6.0-dev.20150730',
+551 silly addNameRange     '1.6.0-dev.20150731',
+551 silly addNameRange     '1.6.0-dev.20150801',
+551 silly addNameRange     '1.6.0-dev.20150802',
+551 silly addNameRange     '1.6.0-dev.20150803',
+551 silly addNameRange     '1.6.0-dev.20150804',
+551 silly addNameRange     '1.6.0-dev.20150805',
+551 silly addNameRange     '1.6.0-dev.20150806',
+551 silly addNameRange     '1.6.0-dev.20150807',
+551 silly addNameRange     '1.6.0-dev.20150808',
+551 silly addNameRange     '1.6.0-dev.20150809',
+551 silly addNameRange     '1.6.0-dev.20150810',
+551 silly addNameRange     '1.6.0-dev.20150811',
+551 silly addNameRange     '1.6.0-dev.20150812',
+551 silly addNameRange     '1.6.0-dev.20150813',
+551 silly addNameRange     '1.6.0-dev.20150814',
+551 silly addNameRange     '1.6.0-dev.20150815',
+551 silly addNameRange     '1.6.0-dev.20150816',
+551 silly addNameRange     '1.6.0-dev.20150817',
+551 silly addNameRange     '1.6.0-dev.20150818',
+551 silly addNameRange     '1.6.0-dev.20150819',
+551 silly addNameRange     '1.6.0-dev.20150820',
+551 silly addNameRange     '1.6.0-dev.20150821',
+551 silly addNameRange     '1.6.0-dev.20150822',
+551 silly addNameRange     '1.6.0-dev.20150823',
+551 silly addNameRange     '1.6.0-dev.20150824',
+551 silly addNameRange     '1.6.0-dev.20150825',
+551 silly addNameRange     '1.7.0-dev.20150826',
+551 silly addNameRange     '1.7.0-dev.20150827',
+551 silly addNameRange     '1.7.0-dev.20150828',
+551 silly addNameRange     '1.7.0-dev.20150829',
+551 silly addNameRange     '1.7.0-dev.20150830',
+551 silly addNameRange     '1.7.0-dev.20150831',
+551 silly addNameRange     '1.7.0-dev.20150901',
+551 silly addNameRange     '1.7.0-dev.20150902',
+551 silly addNameRange     '1.6.0-beta',
+551 silly addNameRange     '1.7.0-dev.20150903',
+551 silly addNameRange     '1.7.0-dev.20150904',
+551 silly addNameRange     '1.6.0-dev.20150905',
+551 silly addNameRange     '1.6.0-dev.20150906',
+551 silly addNameRange     '1.6.0-dev.20150907',
+551 silly addNameRange     '1.6.0-dev.20150908',
+551 silly addNameRange     '1.6.0-dev.20150909',
+551 silly addNameRange     '1.6.0-dev.20150910',
+551 silly addNameRange     '1.6.0-dev.20150911',
+551 silly addNameRange     '1.6.0-dev.20150912',
+551 silly addNameRange     '1.6.0-dev.20150913',
+551 silly addNameRange     '1.6.0-dev.20150914',
+551 silly addNameRange     '1.6.0-dev.20150915',
+551 silly addNameRange     '1.7.0-dev.20150916',
+551 silly addNameRange     '1.6.2',
+551 silly addNameRange     '1.7.0-dev.20150917',
+551 silly addNameRange     '1.7.0-dev.20150918',
+551 silly addNameRange     '1.7.0-dev.20150919',
+551 silly addNameRange     '1.7.0-dev.20150920',
+551 silly addNameRange     '1.7.0-dev.20150921',
+551 silly addNameRange     '1.7.0-dev.20150922',
+551 silly addNameRange     '1.7.0-dev.20150923',
+551 silly addNameRange     '1.7.0-dev.20150924',
+551 silly addNameRange     '1.7.0-dev.20150925',
+551 silly addNameRange     '1.7.0-dev.20150926',
+551 silly addNameRange     '1.7.0-dev.20150927',
+551 silly addNameRange     '1.7.0-dev.20150928',
+551 silly addNameRange     '1.7.0-dev.20150929',
+551 silly addNameRange     '1.7.0-dev.20150930',
+551 silly addNameRange     '1.7.0-dev.20151001',
+551 silly addNameRange     '1.7.0-dev.20151002',
+551 silly addNameRange     '1.7.0-dev.20151003',
+551 silly addNameRange     '1.7.0-dev.20151004',
+551 silly addNameRange     '1.7.0-dev.20151005',
+551 silly addNameRange     '1.7.0-dev.20151006',
+551 silly addNameRange     '1.7.0-dev.20151014',
+551 silly addNameRange     '1.7.0-dev.20151015',
+551 silly addNameRange     '1.7.0-dev.20151016',
+551 silly addNameRange     '1.8.0-dev.20151017',
+551 silly addNameRange     '1.8.0-dev.20151018',
+551 silly addNameRange     '1.8.0-dev.20151019',
+551 silly addNameRange     '1.8.0-dev.20151020',
+551 silly addNameRange     '1.8.0-dev.20151021',
+551 silly addNameRange     '1.8.0-dev.20151022',
+551 silly addNameRange     '1.8.0-dev.20151023',
+551 silly addNameRange     '1.8.0-dev.20151024',
+551 silly addNameRange     '1.8.0-dev.20151025',
+551 silly addNameRange     '1.8.0-dev.20151026',
+551 silly addNameRange     '1.8.0-dev.20151027',
+551 silly addNameRange     '1.8.0-dev.20151028',
+551 silly addNameRange     '1.8.0-dev.20151029',
+551 silly addNameRange     '1.8.0-dev.20151030',
+551 silly addNameRange     '1.8.0-dev.20151031',
+551 silly addNameRange     '1.8.0-dev.20151101',
+551 silly addNameRange     '1.8.0-dev.20151102',
+551 silly addNameRange     '1.8.0-dev.20151103',
+551 silly addNameRange     '1.8.0-dev.20151104',
+551 silly addNameRange     '1.8.0-dev.20151105',
+551 silly addNameRange     '1.8.0-dev.20151106',
+551 silly addNameRange     '1.8.0-dev.20151107',
+551 silly addNameRange     '1.8.0-dev.20151108',
+551 silly addNameRange     '1.8.0-dev.20151109',
+551 silly addNameRange     '1.8.0-dev.20151110',
+551 silly addNameRange     '1.8.0-dev.20151111',
+551 silly addNameRange     '1.8.0-dev.20151112',
+551 silly addNameRange     '1.8.0-dev.20151113',
+551 silly addNameRange     '1.8.0-dev.20151114',
+551 silly addNameRange     '1.8.0-dev.20151115',
+551 silly addNameRange     '1.8.0-dev.20151116',
+551 silly addNameRange     '1.8.0-dev.20151117',
+551 silly addNameRange     '1.8.0-dev.20151118',
+551 silly addNameRange     '1.8.0-dev.20151119',
+551 silly addNameRange     '1.8.0-dev.20151120',
+551 silly addNameRange     '1.8.0-dev.20151121',
+551 silly addNameRange     '1.8.0-dev.20151122',
+551 silly addNameRange     '1.8.0-dev.20151123',
+551 silly addNameRange     '1.8.0-dev.20151124',
+551 silly addNameRange     '1.8.0-dev.20151125',
+551 silly addNameRange     '1.8.0-dev.20151126',
+551 silly addNameRange     '1.8.0-dev.20151127',
+551 silly addNameRange     '1.8.0-dev.20151128',
+551 silly addNameRange     '1.8.0-dev.20151129',
+551 silly addNameRange     '1.8.0-dev.20151130',
+551 silly addNameRange     '1.7.3',
+551 silly addNameRange     '1.8.0-dev.20151201',
+551 silly addNameRange     '1.8.0-dev.20151202',
+551 silly addNameRange     '1.8.0-dev.20151203',
+551 silly addNameRange     '1.8.0-dev.20151204',
+551 silly addNameRange     '1.8.0-dev.20151210',
+551 silly addNameRange     '1.8.0-dev.20151211',
+551 silly addNameRange     '1.8.0-dev.20151212',
+551 silly addNameRange     '1.8.0-dev.20151213',
+551 silly addNameRange     '1.8.0-dev.20151214',
+551 silly addNameRange     '1.7.5',
+551 silly addNameRange     '1.8.0-dev.20151215',
+551 silly addNameRange     '1.8.0-dev.20151216',
+551 silly addNameRange     '1.8.0-dev.20151217',
+551 silly addNameRange     '1.8.0-dev.20151218',
+551 silly addNameRange     '1.8.0-dev.20151219',
+551 silly addNameRange     '1.8.0-dev.20151220',
+551 silly addNameRange     '1.8.0-dev.20151221',
+551 silly addNameRange     '1.8.0-dev.20151222',
+551 silly addNameRange     '1.8.0-dev.20151223',
+551 silly addNameRange     '1.8.0-dev.20151224',
+551 silly addNameRange     '1.8.0-dev.20151225',
+551 silly addNameRange     '1.8.0-dev.20151226',
+551 silly addNameRange     '1.8.0-dev.20151227',
+551 silly addNameRange     '1.8.0-dev.20151228',
+551 silly addNameRange     '1.8.0-dev.20151229',
+551 silly addNameRange     '1.8.0-dev.20151230',
+551 silly addNameRange     '1.8.0-dev.20151231',
+551 silly addNameRange     '1.8.0-dev.20160101',
+551 silly addNameRange     '1.8.0-dev.20160102',
+551 silly addNameRange     '1.8.0-dev.20160103',
+551 silly addNameRange     '1.8.0-dev.20160104',
+551 silly addNameRange     '1.8.0-dev.20160105',
+551 silly addNameRange     '1.8.0-dev.20160106',
+551 silly addNameRange     '1.8.0-dev.20160107',
+551 silly addNameRange     '1.8.0-dev.20160108',
+551 silly addNameRange     '1.8.0-dev.20160109',
+551 silly addNameRange     '1.8.0-dev.20160110',
+551 silly addNameRange     '1.8.0-dev.20160111',
+551 silly addNameRange     '1.8.0-dev.20160112',
+551 silly addNameRange     '1.8.0-dev.20160113',
+551 silly addNameRange     '1.8.0-dev.20160114',
+551 silly addNameRange     '1.8.0-dev.20160115',
+551 silly addNameRange     '1.8.0-dev.20160116',
+551 silly addNameRange     '1.8.0-dev.20160117',
+551 silly addNameRange     '1.8.0-dev.20160118',
+551 silly addNameRange     '1.8.0-dev.20160119',
+551 silly addNameRange     '1.8.0-dev.20160120',
+551 silly addNameRange     '1.8.0-dev.20160121',
+551 silly addNameRange     '1.8.0-dev.20160122',
+551 silly addNameRange     '1.8.0-dev.20160123',
+551 silly addNameRange     '1.8.0-dev.20160124',
+551 silly addNameRange     '1.8.0-dev.20160125',
+551 silly addNameRange     '1.9.0-dev.20160126',
+551 silly addNameRange     '1.9.0-dev.20160127',
+551 silly addNameRange     '1.9.0-dev.20160128',
+551 silly addNameRange     '1.8.0',
+551 silly addNameRange     '1.9.0-dev.20160129',
+551 silly addNameRange     '1.9.0-dev.20160130',
+551 silly addNameRange     '1.9.0-dev.20160131',
+551 silly addNameRange     '1.9.0-dev.20160201',
+551 silly addNameRange     '1.9.0-dev.20160202',
+551 silly addNameRange     '1.9.0-dev.20160203',
+551 silly addNameRange     '1.9.0-dev.20160204',
+551 silly addNameRange     '1.9.0-dev.20160205',
+551 silly addNameRange     '1.9.0-dev.20160206',
+551 silly addNameRange     '1.9.0-dev.20160207',
+551 silly addNameRange     '1.9.0-dev.20160208',
+551 silly addNameRange     '1.9.0-dev.20160209',
+551 silly addNameRange     '1.9.0-dev.20160210',
+551 silly addNameRange     '1.9.0-dev.20160211',
+551 silly addNameRange     '1.9.0-dev.20160212',
+551 silly addNameRange     '1.9.0-dev.20160213',
+551 silly addNameRange     '1.9.0-dev.20160214',
+551 silly addNameRange     '1.9.0-dev.20160215',
+551 silly addNameRange     '1.9.0-dev.20160216',
+551 silly addNameRange     '1.9.0-dev.20160217',
+551 silly addNameRange     '1.9.0-dev.20160218',
+551 silly addNameRange     '1.9.0-dev.20160219',
+551 silly addNameRange     '1.9.0-dev.20160220',
+551 silly addNameRange     '1.9.0-dev.20160221',
+551 silly addNameRange     '1.9.0-dev.20160222',
+551 silly addNameRange     '1.8.2',
+551 silly addNameRange     '1.9.0-dev.20160223',
+551 silly addNameRange     '1.9.0-dev.20160224',
+551 silly addNameRange     '1.9.0-dev.20160225',
+551 silly addNameRange     '1.9.0-dev.20160226',
+551 silly addNameRange     '1.9.0-dev.20160227',
+551 silly addNameRange     '1.9.0-dev.20160228',
+551 silly addNameRange     '1.9.0-dev.20160229',
+551 silly addNameRange     '1.9.0-dev.20160301',
+551 silly addNameRange     '1.8.5',
+551 silly addNameRange     '1.8.6',
+551 silly addNameRange     '1.8.7',
+551 silly addNameRange     '1.9.0-dev.20160302',
+551 silly addNameRange     '1.9.0-dev.20160302.1',
+551 silly addNameRange     '1.9.0-dev.20160303',
+551 silly addNameRange     '1.9.0-dev.20160304',
+551 silly addNameRange     '1.9.0-dev.20160305',
+551 silly addNameRange     '1.9.0-dev.20160306',
+551 silly addNameRange     '1.9.0-dev.20160307',
+551 silly addNameRange     '1.9.0-dev.20160308',
+551 silly addNameRange     '1.9.0-dev.20160309',
+551 silly addNameRange     '1.9.0-dev.20160310',
+551 silly addNameRange     '1.9.0-dev.20160311',
+551 silly addNameRange     '1.9.0-dev.20160312',
+551 silly addNameRange     '1.9.0-dev.20160313',
+551 silly addNameRange     '1.9.0-dev.20160315',
+551 silly addNameRange     '1.9.0-dev.20160316',
+551 silly addNameRange     '1.8.9',
+551 silly addNameRange     '1.9.0-dev.20160317',
+551 silly addNameRange     '1.9.0-dev.20160318',
+551 silly addNameRange     '1.9.0-dev.20160319',
+551 silly addNameRange     '1.9.0-dev.20160320',
+551 silly addNameRange     '1.9.0-dev.20160321',
+551 silly addNameRange     '1.9.0-dev.20160322',
+551 silly addNameRange     '1.9.0-dev.20160323',
+551 silly addNameRange     '1.9.0-dev.20160324',
+551 silly addNameRange     '1.9.0-dev.20160325',
+551 silly addNameRange     '1.9.0-dev.20160326',
+551 silly addNameRange     '1.9.0-dev.20160327',
+551 silly addNameRange     '1.9.0-dev.20160328',
+551 silly addNameRange     '1.9.0-dev.20160329',
+551 silly addNameRange     '1.9.0-dev.20160330',
+551 silly addNameRange     '1.9.0-dev.20160331',
+551 silly addNameRange     '1.9.0-dev.20160401',
+551 silly addNameRange     '1.9.0-dev.20160402',
+551 silly addNameRange     '1.9.0-dev.20160403',
+551 silly addNameRange     '1.9.0-dev.20160404',
+551 silly addNameRange     '1.9.0-dev.20160405',
+551 silly addNameRange     '1.9.0-dev.20160406',
+551 silly addNameRange     '1.9.0-dev.20160407',
+551 silly addNameRange     '1.9.0-dev.20160408',
+551 silly addNameRange     '1.9.0-dev.20160409',
+551 silly addNameRange     '1.9.0-dev.20160411',
+551 silly addNameRange     '1.9.0-dev.20160412',
+551 silly addNameRange     '1.8.10',
+551 silly addNameRange     '1.9.0-dev.20160413',
+551 silly addNameRange     '1.9.0-dev.20160414',
+551 silly addNameRange     '1.9.0-dev.20160415',
+551 silly addNameRange     '1.9.0-dev.20160416',
+551 silly addNameRange     '1.9.0-dev.20160417',
+551 silly addNameRange     '1.9.0-dev.20160418',
+551 silly addNameRange     '1.9.0-dev.20160419',
+551 silly addNameRange     '1.9.0-dev.20160420',
+551 silly addNameRange     '1.9.0-dev.20160421',
+551 silly addNameRange     '1.9.0-dev.20160422',
+551 silly addNameRange     '1.9.0-dev.20160423',
+551 silly addNameRange     '1.9.0-dev.20160424',
+551 silly addNameRange     '1.9.0-dev.20160425',
+551 silly addNameRange     '1.9.0-dev.20160426',
+551 silly addNameRange     '1.9.0-dev.20160427',
+551 silly addNameRange     '1.9.0-dev.20160428',
+551 silly addNameRange     '1.9.0',
+551 silly addNameRange     '1.9.0-dev.20160428-1.0',
+551 silly addNameRange     '1.9.0-dev.20160429',
+551 silly addNameRange     '1.9.0-dev.20160430',
+551 silly addNameRange     '1.9.0-dev.20160501',
+551 silly addNameRange     '1.9.0-dev.20160502',
+551 silly addNameRange     '1.9.0-dev.20160503',
+551 silly addNameRange     '1.9.0-dev.20160504',
+551 silly addNameRange     '1.9.0-dev.20160505',
+551 silly addNameRange     '1.9.0-dev.20160506',
+551 silly addNameRange     '1.9.0-dev.20160507',
+551 silly addNameRange     '1.9.0-dev.20160508',
+551 silly addNameRange     '1.9.0-dev.20160509',
+551 silly addNameRange     '1.9.0-dev.20160510',
+551 silly addNameRange     '1.9.0-dev.20160511',
+551 silly addNameRange     '1.9.0-dev.20160512',
+551 silly addNameRange     '1.9.0-dev.20160513',
+551 silly addNameRange     '1.9.0-dev.20160514',
+551 silly addNameRange     '1.9.0-dev.20160515',
+551 silly addNameRange     '1.9.0-dev.20160516',
+551 silly addNameRange     '1.9.0-dev.20160517-1.0',
+551 silly addNameRange     '1.9.0-dev.20160518-1.0',
+551 silly addNameRange     '1.9.0-dev.20160519-1.0',
+551 silly addNameRange     '1.9.0-dev.20160520-1.0',
+551 silly addNameRange     '1.9.0-dev.20160521-1.0',
+551 silly addNameRange     '1.9.0-dev.20160522-1.0',
+551 silly addNameRange     '1.9.0-dev.20160523-1.0',
+551 silly addNameRange     '1.9.0-dev.20160524-1.0',
+551 silly addNameRange     '1.9.0-dev.20160525-1.0',
+551 silly addNameRange     '1.9.0-dev.20160526-1.0',
+551 silly addNameRange     '1.9.0-dev.20160527-1.0',
+551 silly addNameRange     '1.9.0-dev.20160528-1.0',
+551 silly addNameRange     '1.9.0-dev.20160529-1.0',
+551 silly addNameRange     '1.9.0-dev.20160530-1.0',
+551 silly addNameRange     '1.9.0-dev.20160531-1.0',
+551 silly addNameRange     '1.9.0-dev.20160601-1.0',
+551 silly addNameRange     '1.9.0-dev.20160602-1.0',
+551 silly addNameRange     '1.9.0-dev.20160603-1.0',
+551 silly addNameRange     '1.9.0-dev.20160604-1.0',
+551 silly addNameRange     '1.9.0-dev.20160605-1.0',
+551 silly addNameRange     '1.9.0-dev.20160606-1.0',
+551 silly addNameRange     '1.9.0-dev.20160607-1.0',
+551 silly addNameRange     '1.9.0-dev.20160608-1.0',
+551 silly addNameRange     '1.9.0-dev.20160609-1.0',
+551 silly addNameRange     '1.9.0-dev.20160610-1.0',
+551 silly addNameRange     '1.9.0-dev.20160611-1.0',
+551 silly addNameRange     '1.9.0-dev.20160612-1.0',
+551 silly addNameRange     '1.9.0-dev.20160613-1.0',
+551 silly addNameRange     '1.9.0-dev.20160614-1.0',
+551 silly addNameRange     '1.9.0-dev.20160615-1.0',
+551 silly addNameRange     '1.9.0-dev.20160616-1.0',
+551 silly addNameRange     '1.9.0-dev.20160617-1.0',
+551 silly addNameRange     '1.9.0-dev.20160618-1.0',
+551 silly addNameRange     '1.9.0-dev.20160619-1.0',
+551 silly addNameRange     '1.9.0-dev.20160620-1.0',
+551 silly addNameRange     '1.9.0-dev.20160622-1.0',
+551 silly addNameRange     '1.9.0-dev.20160623-1.0',
+551 silly addNameRange     '1.9.0-dev.20160624-1.0',
+551 silly addNameRange     '1.9.0-dev.20160625-1.0',
+551 silly addNameRange     '1.9.0-dev.20160626-1.0',
+551 silly addNameRange     '1.9.0-dev.20160627-1.0',
+551 silly addNameRange     '2.0.0-dev.20160628',
+551 silly addNameRange     '2.0.0-dev.20160629',
+551 silly addNameRange     '2.0.0-dev.20160630',
+551 silly addNameRange     '2.0.0-dev.20160701',
+551 silly addNameRange     '2.0.0-dev.20160702',
+551 silly addNameRange     '2.0.0-dev.20160703',
+551 silly addNameRange     '2.0.0-dev.20160704',
+551 silly addNameRange     '2.0.0-dev.20160705',
+551 silly addNameRange     '2.0.0-dev.20160706',
+551 silly addNameRange     '2.0.0-dev.20160707',
+551 silly addNameRange     '2.0.0-dev.20160711',
+551 silly addNameRange     '2.0.0',
+551 silly addNameRange     '2.1.0-dev.20160712',
+551 silly addNameRange     '2.1.0-dev.20160713',
+551 silly addNameRange     '2.1.0-dev.20160714',
+551 silly addNameRange     '2.1.0-dev.20160715',
+551 silly addNameRange     '2.1.0-dev.20160716',
+551 silly addNameRange     '2.1.0-dev.20160717',
+551 silly addNameRange     '2.1.0-dev.20160718',
+551 silly addNameRange     '2.1.0-dev.20160719',
+551 silly addNameRange     '2.1.0-dev.20160720',
+551 silly addNameRange     '2.1.0-dev.20160721',
+551 silly addNameRange     '2.1.0-dev.20160722',
+551 silly addNameRange     '2.1.0-dev.20160723',
+551 silly addNameRange     '2.1.0-dev.20160724',
+551 silly addNameRange     '2.1.0-dev.20160725',
+551 silly addNameRange     '2.1.0-dev.20160726',
+551 silly addNameRange     '2.1.0-dev.20160727',
+551 silly addNameRange     '2.1.0-dev.20160728',
+551 silly addNameRange     '2.1.0-dev.20160729',
+551 silly addNameRange     '2.1.0-dev.20160730',
+551 silly addNameRange     '2.1.0-dev.20160731',
+551 silly addNameRange     '2.1.0-dev.20160801',
+551 silly addNameRange     '2.1.0-dev.20160802',
+551 silly addNameRange     '2.1.0-dev.20160803',
+551 silly addNameRange     '2.1.0-dev.20160804',
+551 silly addNameRange     '2.1.0-dev.20160805',
+551 silly addNameRange     '2.1.0-dev.20160806',
+551 silly addNameRange     '2.1.0-dev.20160807',
+551 silly addNameRange     '2.1.0-dev.20160808',
+551 silly addNameRange     '2.1.0-dev.20160809',
+551 silly addNameRange     '2.1.0-dev.20160810',
+551 silly addNameRange     '2.1.0-dev.20160811',
+551 silly addNameRange     '2.1.0-dev.20160812',
+551 silly addNameRange     '2.1.0-dev.20160813',
+551 silly addNameRange     '2.1.0-dev.20160814',
+551 silly addNameRange     '2.1.0-dev.20160815',
+551 silly addNameRange     '2.1.0-dev.20160816',
+551 silly addNameRange     '2.1.0-dev.20160817',
+551 silly addNameRange     '2.1.0-dev.20160818',
+551 silly addNameRange     '2.1.0-dev.20160819',
+551 silly addNameRange     '2.1.0-dev.20160820',
+551 silly addNameRange     '2.1.0-dev.20160821',
+551 silly addNameRange     '2.1.0-dev.20160822',
+551 silly addNameRange     '2.1.0-dev.20160823',
+551 silly addNameRange     '2.1.0-dev.20160824',
+551 silly addNameRange     '2.1.0-dev.20160825',
+551 silly addNameRange     '2.1.0-dev.20160826',
+551 silly addNameRange     '2.1.0-dev.20160827',
+551 silly addNameRange     '2.1.0-dev.20160828',
+551 silly addNameRange     '2.1.0-dev.20160829',
+551 silly addNameRange     '2.1.0-dev.20160830',
+551 silly addNameRange     '2.0.2',
+551 silly addNameRange     '2.1.0-dev.20160831',
+551 silly addNameRange     '2.1.0-dev.20160901',
+551 silly addNameRange     '2.1.0-dev.20160902',
+551 silly addNameRange     '2.1.0-dev.20160903',
+551 silly addNameRange     '2.1.0-dev.20160904',
+551 silly addNameRange     '2.1.0-dev.20160905',
+551 silly addNameRange     '2.1.0-dev.20160906',
+551 silly addNameRange     '2.1.0-dev.20160907',
+551 silly addNameRange     '2.1.0-dev.20160908',
+551 silly addNameRange     '2.1.0-dev.20160909',
+551 silly addNameRange     '2.1.0-dev.20160910',
+551 silly addNameRange     '2.1.0-dev.20160911',
+551 silly addNameRange     '2.1.0-dev.20160912',
+551 silly addNameRange     '2.1.0-dev.20160913',
+551 silly addNameRange     '2.1.0-dev.20160914',
+551 silly addNameRange     '2.1.0-dev.20160915',
+551 silly addNameRange     '2.1.0-dev.20160916',
+551 silly addNameRange     '2.1.0-dev.20160917',
+551 silly addNameRange     '2.1.0-dev.20160918',
+551 silly addNameRange     '2.1.0-dev.20160919',
+551 silly addNameRange     '2.1.0-dev.20160920',
+551 silly addNameRange     '2.1.0-dev.20160921',
+551 silly addNameRange     '2.1.0-dev.20160922',
+551 silly addNameRange     '2.0.3',
+551 silly addNameRange     '2.1.0-dev.20160923',
+551 silly addNameRange     '2.1.0-dev.20160924',
+551 silly addNameRange     '2.1.0-dev.20160925',
+551 silly addNameRange     '2.1.0-dev.20160926',
+551 silly addNameRange     '2.1.0-dev.20160927',
+551 silly addNameRange     '2.1.0-dev.20160928',
+551 silly addNameRange     '2.1.0-dev.20160929',
+551 silly addNameRange     '2.1.0-dev.20160930',
+551 silly addNameRange     '2.1.0-dev.20161001',
+551 silly addNameRange     '2.1.0-dev.20161002',
+551 silly addNameRange     '2.1.0-dev.20161003',
+551 silly addNameRange     '2.1.0-dev.20161004',
+551 silly addNameRange     '2.1.0-dev.20161005',
+551 silly addNameRange     '2.1.0-dev.20161006',
+551 silly addNameRange     '2.1.0-dev.20161007',
+551 silly addNameRange     '2.0.6-insiders.20161007',
+551 silly addNameRange     '2.1.0-dev.20161008',
+551 silly addNameRange     '2.1.0-dev.20161009',
+551 silly addNameRange     '2.1.0-dev.20161010',
+551 silly addNameRange     '2.1.0-dev.20161011',
+551 silly addNameRange     '2.1.0-dev.20161012',
+551 silly addNameRange     '2.0.6-insiders.20161012',
+551 silly addNameRange     '2.1.0-dev.20161013',
+551 silly addNameRange     '2.1.0-dev.20161014',
+551 silly addNameRange     '2.0.6-insiders.20161014',
+551 silly addNameRange     '2.1.0-dev.20161015',
+551 silly addNameRange     '2.1.0-dev.20161016',
+551 silly addNameRange     '2.1.0-dev.20161017',
+551 silly addNameRange     '2.0.6-insiders.20161017',
+551 silly addNameRange     '2.1.0-dev.20161018',
+551 silly addNameRange     '2.1.0-dev.20161019',
+551 silly addNameRange     '2.1.0-dev.20161020',
+551 silly addNameRange     '2.1.0-dev.20161021',
+551 silly addNameRange     '2.1.0-dev.20161022',
+551 silly addNameRange     '2.1.0-dev.20161023',
+551 silly addNameRange     '2.1.0-dev.20161024',
+551 silly addNameRange     '2.1.0-dev.20161025',
+551 silly addNameRange     '2.0.6',
+551 silly addNameRange     '2.1.0-dev.20161026',
+551 silly addNameRange     '2.1.0-dev.20161027',
+551 silly addNameRange     '2.1.0-dev.20161028',
+551 silly addNameRange     '2.1.0-dev.20161029',
+551 silly addNameRange     '2.1.0-dev.20161030',
+551 silly addNameRange     '2.1.0-dev.20161031',
+551 silly addNameRange     '2.1.0-dev.20161101',
+551 silly addNameRange     '2.1.0-dev.20161102' ] ]
+552 silly addNamed typescript@2.0.6
+553 verbose addNamed "2.0.6" is a plain semver version for typescript
+554 silly mapToRegistry name typescript
+555 silly mapToRegistry using default registry
+556 silly mapToRegistry registry http://sinopia.trademe.local/
+557 silly mapToRegistry uri http://sinopia.trademe.local/typescript
+558 verbose addRemoteTarball http://sinopia.trademe.local/typescript/-/typescript-2.0.6.tgz not in flight; adding
+559 verbose addRemoteTarball [ 'http://sinopia.trademe.local/typescript/-/typescript-2.0.6.tgz',
+559 verbose addRemoteTarball   '5385499ac9811508c2c43e0ea07a1ddca435e111' ]
+560 info retry fetch attempt 1 at 9:06:44 AM
+561 info attempt registry request try #1 at 9:06:44 AM
+562 http fetch GET http://sinopia.trademe.local/typescript/-/typescript-2.0.6.tgz
+563 verbose request using bearer token for auth
+564 http fetch 200 http://sinopia.trademe.local/typescript/-/typescript-2.0.6.tgz
+565 silly fetchAndShaCheck shasum 5a389394549f23330875a3b150656574f8a9eb71
+566 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/bootstrap/-/bootstrap-3.3.7.tgz not in flight; adding
+567 verbose addTmpTarball already have metadata; skipping unpack for bootstrap@3.3.7
+568 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+569 silly cache afterAdd bootstrap@3.3.7
+570 verbose afterAdd /Users/tgray/.npm/bootstrap/3.3.7/package/package.json not in flight; writing
+571 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+572 verbose afterAdd /Users/tgray/.npm/bootstrap/3.3.7/package/package.json written
+573 http 200 http://sinopia.trademe.local/typings
+574 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+574 verbose headers   'content-type': 'application/json; charset=utf-8',
+574 verbose headers   etag: '"ec80b409d7e24a99e98d55f4a66d144e"',
+574 verbose headers   vary: 'Accept-Encoding',
+574 verbose headers   'content-encoding': 'gzip',
+574 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+574 verbose headers   date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+574 verbose headers   connection: 'keep-alive',
+574 verbose headers   'transfer-encoding': 'chunked' }
+575 silly get cb [ 200,
+575 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+575 silly get     'content-type': 'application/json; charset=utf-8',
+575 silly get     etag: '"ec80b409d7e24a99e98d55f4a66d144e"',
+575 silly get     vary: 'Accept-Encoding',
+575 silly get     'content-encoding': 'gzip',
+575 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+575 silly get     date: 'Wed, 02 Nov 2016 20:06:44 GMT',
+575 silly get     connection: 'keep-alive',
+575 silly get     'transfer-encoding': 'chunked' } ]
+576 verbose get saving typings to /Users/tgray/.npm/sinopia.trademe.local/typings/.cache.json
+577 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+578 silly addNameRange number 2 { name: 'typings', range: '>=1.0.4 <2.0.0', hasData: true }
+579 silly addNameRange versions [ 'typings',
+579 silly addNameRange   [ '0.0.0',
+579 silly addNameRange     '0.0.2',
+579 silly addNameRange     '0.0.3',
+579 silly addNameRange     '0.0.4',
+579 silly addNameRange     '0.0.5',
+579 silly addNameRange     '0.0.6',
+579 silly addNameRange     '0.0.7',
+579 silly addNameRange     '0.0.8',
+579 silly addNameRange     '0.0.9',
+579 silly addNameRange     '0.0.10',
+579 silly addNameRange     '0.0.11',
+579 silly addNameRange     '0.0.12',
+579 silly addNameRange     '0.0.13',
+579 silly addNameRange     '0.1.0',
+579 silly addNameRange     '0.1.1',
+579 silly addNameRange     '0.1.2',
+579 silly addNameRange     '0.1.3',
+579 silly addNameRange     '0.1.4',
+579 silly addNameRange     '0.1.5',
+579 silly addNameRange     '0.1.6',
+579 silly addNameRange     '0.1.7',
+579 silly addNameRange     '0.2.0',
+579 silly addNameRange     '0.2.1',
+579 silly addNameRange     '0.2.2',
+579 silly addNameRange     '0.2.3',
+579 silly addNameRange     '0.2.4',
+579 silly addNameRange     '0.3.0',
+579 silly addNameRange     '0.3.1',
+579 silly addNameRange     '0.3.2',
+579 silly addNameRange     '0.3.3',
+579 silly addNameRange     '0.3.4',
+579 silly addNameRange     '0.3.5',
+579 silly addNameRange     '0.4.0',
+579 silly addNameRange     '0.4.1',
+579 silly addNameRange     '0.5.0',
+579 silly addNameRange     '0.5.1',
+579 silly addNameRange     '0.5.2',
+579 silly addNameRange     '0.6.0',
+579 silly addNameRange     '0.6.1',
+579 silly addNameRange     '0.6.2',
+579 silly addNameRange     '0.6.3',
+579 silly addNameRange     '0.6.4',
+579 silly addNameRange     '0.6.5',
+579 silly addNameRange     '0.6.6',
+579 silly addNameRange     '0.6.7',
+579 silly addNameRange     '0.6.8',
+579 silly addNameRange     '0.6.9',
+579 silly addNameRange     '0.6.10',
+579 silly addNameRange     '0.7.0',
+579 silly addNameRange     '0.7.1',
+579 silly addNameRange     '0.7.2',
+579 silly addNameRange     '0.7.3',
+579 silly addNameRange     '0.7.4',
+579 silly addNameRange     '0.7.5',
+579 silly addNameRange     '0.7.6',
+579 silly addNameRange     '0.7.7',
+579 silly addNameRange     '0.7.8',
+579 silly addNameRange     '0.7.9',
+579 silly addNameRange     '0.7.10',
+579 silly addNameRange     '0.7.11',
+579 silly addNameRange     '0.7.12',
+579 silly addNameRange     '0.8.0',
+579 silly addNameRange     '0.8.1',
+579 silly addNameRange     '1.0.1',
+579 silly addNameRange     '1.0.2',
+579 silly addNameRange     '1.0.3',
+579 silly addNameRange     '1.0.4',
+579 silly addNameRange     '1.0.5',
+579 silly addNameRange     '1.1.0',
+579 silly addNameRange     '1.2.0',
+579 silly addNameRange     '1.3.0',
+579 silly addNameRange     '1.3.1',
+579 silly addNameRange     '1.3.2',
+579 silly addNameRange     '1.3.3',
+579 silly addNameRange     '1.4.0',
+579 silly addNameRange     '1.5.0' ] ]
+580 silly addNamed typings@1.5.0
+581 verbose addNamed "1.5.0" is a plain semver version for typings
+582 silly mapToRegistry name typings
+583 silly mapToRegistry using default registry
+584 silly mapToRegistry registry http://sinopia.trademe.local/
+585 silly mapToRegistry uri http://sinopia.trademe.local/typings
+586 verbose addRemoteTarball http://sinopia.trademe.local/typings/-/typings-1.5.0.tgz not in flight; adding
+587 verbose addRemoteTarball [ 'http://sinopia.trademe.local/typings/-/typings-1.5.0.tgz',
+587 verbose addRemoteTarball   'b9d236cf1d37460854f8c671ea495d9405b8103f' ]
+588 info retry fetch attempt 1 at 9:06:44 AM
+589 info attempt registry request try #1 at 9:06:44 AM
+590 http fetch GET http://sinopia.trademe.local/typings/-/typings-1.5.0.tgz
+591 verbose request using bearer token for auth
+592 http fetch 200 http://sinopia.trademe.local/typings/-/typings-1.5.0.tgz
+593 silly fetchAndShaCheck shasum b9d236cf1d37460854f8c671ea495d9405b8103f
+594 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/typings/-/typings-1.5.0.tgz not in flight; adding
+595 verbose addTmpTarball already have metadata; skipping unpack for typings@1.5.0
+596 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+597 silly cache afterAdd typings@1.5.0
+598 verbose afterAdd /Users/tgray/.npm/typings/1.5.0/package/package.json not in flight; writing
+599 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+600 verbose afterAdd /Users/tgray/.npm/typings/1.5.0/package/package.json written
+601 http 200 http://sinopia.trademe.local/zone.js
+602 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+602 verbose headers   'content-type': 'application/json; charset=utf-8',
+602 verbose headers   etag: '"19d1718dbea5bd97aa834dea3c2aa760"',
+602 verbose headers   vary: 'Accept-Encoding',
+602 verbose headers   'content-encoding': 'gzip',
+602 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+602 verbose headers   date: 'Wed, 02 Nov 2016 20:06:45 GMT',
+602 verbose headers   connection: 'keep-alive',
+602 verbose headers   'transfer-encoding': 'chunked' }
+603 silly get cb [ 200,
+603 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+603 silly get     'content-type': 'application/json; charset=utf-8',
+603 silly get     etag: '"19d1718dbea5bd97aa834dea3c2aa760"',
+603 silly get     vary: 'Accept-Encoding',
+603 silly get     'content-encoding': 'gzip',
+603 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+603 silly get     date: 'Wed, 02 Nov 2016 20:06:45 GMT',
+603 silly get     connection: 'keep-alive',
+603 silly get     'transfer-encoding': 'chunked' } ]
+604 verbose get saving zone.js to /Users/tgray/.npm/sinopia.trademe.local/zone.js/.cache.json
+605 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+606 silly addNameRange number 2 { name: 'zone.js', range: '>=0.6.23 <0.7.0', hasData: true }
+607 silly addNameRange versions [ 'zone.js',
+607 silly addNameRange   [ '0.1.0',
+607 silly addNameRange     '0.1.1',
+607 silly addNameRange     '0.2.0',
+607 silly addNameRange     '0.2.1',
+607 silly addNameRange     '0.2.3',
+607 silly addNameRange     '0.2.2',
+607 silly addNameRange     '0.2.4',
+607 silly addNameRange     '0.3.0',
+607 silly addNameRange     '0.4.0',
+607 silly addNameRange     '0.4.1',
+607 silly addNameRange     '0.4.2',
+607 silly addNameRange     '0.4.3',
+607 silly addNameRange     '0.4.4',
+607 silly addNameRange     '0.5.0',
+607 silly addNameRange     '0.5.1',
+607 silly addNameRange     '0.5.2',
+607 silly addNameRange     '0.5.3',
+607 silly addNameRange     '0.5.4',
+607 silly addNameRange     '0.5.5',
+607 silly addNameRange     '0.5.6',
+607 silly addNameRange     '0.5.7',
+607 silly addNameRange     '0.5.8',
+607 silly addNameRange     '0.5.9',
+607 silly addNameRange     '0.5.10',
+607 silly addNameRange     '0.5.11',
+607 silly addNameRange     '0.5.12',
+607 silly addNameRange     '0.5.13',
+607 silly addNameRange     '0.5.14',
+607 silly addNameRange     '0.5.15',
+607 silly addNameRange     '0.6.0',
+607 silly addNameRange     '0.6.1',
+607 silly addNameRange     '0.6.2',
+607 silly addNameRange     '0.6.3',
+607 silly addNameRange     '0.6.4',
+607 silly addNameRange     '0.6.5',
+607 silly addNameRange     '0.6.6',
+607 silly addNameRange     '0.6.8',
+607 silly addNameRange     '0.6.9',
+607 silly addNameRange     '0.6.10',
+607 silly addNameRange     '0.6.11',
+607 silly addNameRange     '0.6.12',
+607 silly addNameRange     '0.6.13',
+607 silly addNameRange     '0.6.14',
+607 silly addNameRange     '0.6.15',
+607 silly addNameRange     '0.6.16',
+607 silly addNameRange     '0.6.17',
+607 silly addNameRange     '0.6.18',
+607 silly addNameRange     '0.6.19',
+607 silly addNameRange     '0.6.20',
+607 silly addNameRange     '0.6.21',
+607 silly addNameRange     '0.6.22',
+607 silly addNameRange     '0.6.23',
+607 silly addNameRange     '0.6.24',
+607 silly addNameRange     '0.6.25',
+607 silly addNameRange     '0.6.26' ] ]
+608 silly addNamed zone.js@0.6.26
+609 verbose addNamed "0.6.26" is a plain semver version for zone.js
+610 silly mapToRegistry name zone.js
+611 silly mapToRegistry using default registry
+612 silly mapToRegistry registry http://sinopia.trademe.local/
+613 silly mapToRegistry uri http://sinopia.trademe.local/zone.js
+614 verbose addRemoteTarball http://sinopia.trademe.local/zone.js/-/zone.js-0.6.26.tgz not in flight; adding
+615 verbose addRemoteTarball [ 'http://sinopia.trademe.local/zone.js/-/zone.js-0.6.26.tgz',
+615 verbose addRemoteTarball   '067c13b8b80223a89b62e9dc82680f09762c4636' ]
+616 info retry fetch attempt 1 at 9:06:45 AM
+617 info attempt registry request try #1 at 9:06:45 AM
+618 http fetch GET http://sinopia.trademe.local/zone.js/-/zone.js-0.6.26.tgz
+619 verbose request using bearer token for auth
+620 http fetch 200 http://sinopia.trademe.local/zone.js/-/zone.js-0.6.26.tgz
+621 silly fetchAndShaCheck shasum 067c13b8b80223a89b62e9dc82680f09762c4636
+622 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/zone.js/-/zone.js-0.6.26.tgz not in flight; adding
+623 verbose addTmpTarball already have metadata; skipping unpack for zone.js@0.6.26
+624 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+625 silly cache afterAdd zone.js@0.6.26
+626 verbose afterAdd /Users/tgray/.npm/zone.js/0.6.26/package/package.json not in flight; writing
+627 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+628 verbose afterAdd /Users/tgray/.npm/zone.js/0.6.26/package/package.json written
+629 silly fetchAndShaCheck shasum cdfde2d8c4639d20ae7794bff8fddf32da7ad337
+630 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/rxjs/-/rxjs-5.0.0-beta.12.tgz not in flight; adding
+631 verbose addTmpTarball already have metadata; skipping unpack for rxjs@5.0.0-beta.12
+632 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+633 silly cache afterAdd rxjs@5.0.0-beta.12
+634 verbose afterAdd /Users/tgray/.npm/rxjs/5.0.0-beta.12/package/package.json not in flight; writing
+635 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+636 verbose afterAdd /Users/tgray/.npm/rxjs/5.0.0-beta.12/package/package.json written
+637 silly fetchAndShaCheck shasum 5385499ac9811508c2c43e0ea07a1ddca435e111
+638 verbose addTmpTarball /var/folders/1l/w67c1k_57ygc_dw6pnlkk0bm6ghrxh/T/npm-18242-50a700cd/sinopia.trademe.local/typescript/-/typescript-2.0.6.tgz not in flight; adding
+639 verbose addTmpTarball already have metadata; skipping unpack for typescript@2.0.6
+640 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+641 silly cache afterAdd typescript@2.0.6
+642 verbose afterAdd /Users/tgray/.npm/typescript/2.0.6/package/package.json not in flight; writing
+643 verbose correctMkdir /Users/tgray/.npm correctMkdir not in flight; initializing
+644 verbose afterAdd /Users/tgray/.npm/typescript/2.0.6/package/package.json written
+645 verbose stack Error: no such package available : @angular/compiler
+645 verbose stack     at makeError (/Users/tgray/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+645 verbose stack     at CachingRegistryClient.<anonymous> (/Users/tgray/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+645 verbose stack     at Request._callback (/Users/tgray/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+645 verbose stack     at Request.self.callback (/Users/tgray/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/request/request.js:199:22)
+645 verbose stack     at emitTwo (events.js:87:13)
+645 verbose stack     at Request.emit (events.js:172:7)
+645 verbose stack     at Request.<anonymous> (/Users/tgray/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+645 verbose stack     at emitOne (events.js:82:20)
+645 verbose stack     at Request.emit (events.js:169:7)
+645 verbose stack     at IncomingMessage.<anonymous> (/Users/tgray/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/request/request.js:963:12)
+646 verbose statusCode 404
+647 verbose pkgid @angular/compiler
+648 verbose cwd /Users/tgray/Documents/web-dev/Angular2-GettingStarted/APM
+649 error Darwin 15.6.0
+650 error argv "/Users/tgray/.nvm/versions/node/v4.4.1/bin/node" "/Users/tgray/.nvm/versions/node/v4.4.1/bin/npm" "install"
+651 error node v4.4.1
+652 error npm  v2.14.20
+653 error code E404
+654 error 404 no such package available : @angular/compiler
+654 error 404
+654 error 404 '@angular/compiler' is not in the npm registry.
+654 error 404 You should bug the author to publish it (or use the name yourself!)
+654 error 404 It was specified as a dependency of 'product-management'
+654 error 404
+654 error 404 Note that you can also install from a
+654 error 404 tarball, folder, http url, or git url.
+655 verbose exit [ 1, true ]
